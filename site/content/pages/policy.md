@@ -16,4 +16,4 @@ Discussing research may involve criticism of an author's methods, statistics, or
 
 We may turn on comment moderation if we believe the system is being abused. Comments may occasionally be delayed in showing up due to automatic spam-prevention filters.
 
-No comments should be taken as reflecting the official position of the Open Science Collaboration, the Center for Open Science, or any other organization, unless they are explicitly marked as such. This includes comments from OSC members and blog authors or moderators.
+No comments or posts should be taken as reflecting the official position of the Open Science Collaboration, the Center for Open Science, or any other organization, unless they are explicitly marked as such. This includes comments or posts from OSC members and blog authors or moderators.
