@@ -16,11 +16,11 @@
 
                     <div class="clear"></div>
                     <div class="info">
-                        {% if DISQUS_SITENAME %}<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">comments</a> | {% endif %}
+                        {% if DISQUS_SITENAME %}<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" style="text-decoration:underline;">Discuss this post</a> | {% endif %}
                         {% if article.pinned -%}
-                        <a href="{{ SITEURL }}/{{ article.url }}">posted {{ article.date.strftime("%B %e, %l:%M %P") }}</a>
+                        <a href="{{ SITEURL }}/{{ article.url }}">Posted {{ article.date.strftime("%B %e, %l:%M %P") }}</a>
                         {%- else -%}
-                        <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%l:%M %P") }}</a>
+                        <a href="{{ SITEURL }}/{{ article.url }}">Posted at {{ article.date.strftime("%l:%M %P") }}</a>
                         {%- if article.category.name != "Uncategorized" -%}
                         &nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
                         {%- endif %}
