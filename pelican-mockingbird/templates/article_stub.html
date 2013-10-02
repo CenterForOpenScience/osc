@@ -16,7 +16,7 @@
 
                     <div class="clear"></div>
                     <div class="info">
-                        {% if DISQUS_SITENAME %}<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" style="text-decoration:underline;">Discuss this post</a> | {% endif %}
+                        {% if DISQUS_SITENAME %}<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" style="text-decoration:underline; color: black">Discuss this post</a> | {% endif %}
                         {% if article.pinned -%}
                         <a href="{{ SITEURL }}/{{ article.url }}">Posted {{ article.date.strftime("%B %e, %l:%M %P") }}</a>
                         {%- else -%}
