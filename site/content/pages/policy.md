@@ -7,7 +7,7 @@ In the spirit of transparent, collaborative research, we take a light hand with 
 * Link spam / obviously promotional links
 * Fraudulent or deliberately misleading comments, including impersonation and sock-puppeting
 * Illegal or harassing comments; hate speech
-* Posts containing plagiarism or copyrighted material outside the bounds of fair use.
+* Posts containing plagiarism or copyrighted material outside the bounds of fair use
 * Posts disclosing unauthorized personal details about other individuals (addresses, phone numbers, etc).
 
 We encourage intelligent, in-depth discussion. Users who show a pattern of insulting or uncivil comments, and who persist after receiving a warning from a moderator, may be banned.
