@@ -60,6 +60,18 @@ table {
 	border: 1px solid gray;
 }
 
+tr {
+	border-top: 1px solid #ccc;
+}
+
+th {
+	border: 1px solid #ddd;
+}
+
+td {
+	border: 1px solid #ddd;
+}
+
 /* Mockingbird Theme by Nevan Scott nevanscott.com */
 
 body {
