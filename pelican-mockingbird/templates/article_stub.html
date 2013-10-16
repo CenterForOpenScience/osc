@@ -10,8 +10,9 @@
                     </h2>
                     {% endif %}
 
+                    {% if article.author != 'None' %}
                     by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a>
-
+                    {% endif %}
                     {{ article.content }}
 
                     <div class="clear"></div>
