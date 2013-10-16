@@ -58,6 +58,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	border: 1px solid gray;
+	font-size: .8em;
 }
 
 tr {
@@ -66,6 +67,7 @@ tr {
 
 th {
 	border: 1px solid #ddd;
+	font-weight: bold;
 }
 
 td {
