@@ -38,7 +38,7 @@ for access to the server.
 
 2) "Make a local copy":  You can edit files using the Github interface, but you can't add them, which is what you want to do here.  So you need to make a local copy - a copy on your computer.  (Copies on Github are called "remote" copies.)  To do that you need to go to your command line.  For Mac or Linux, go to your terminal.  For Windows, you need something called Git Bash. (Try here if you're having trouble: <https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Harvard/Laptop_setup#Goal_.233:_install_git>).  Once you're successfully at a terminal/command prompt, type "git clone URL".  The specific URL you want is found in the righthand sidebar of the repository's main page under "HTTPS clone URL".
 
-3) "Make changes":  Now that you've got your local copy, you can use it the way you'd use any directory on your computer.  In your case, this means you'd want to put the markdown file in site/content and the png image in site/content/images.
+3) "Make changes":  Now that you've got your local copy, you can use it the way you'd use any directory on your computer.  To add a new post, you want to put your markdown file in site/content/.  Any images should go in site/content/images/.  If you don't want the post to go live immediately, make sure it has the line "Status: draft". 
 
 4) "Submit changes":  This is a multistep proccess:
   - type "git add ." to add all changes you've made to git's internal tracker
