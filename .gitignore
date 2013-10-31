@@ -1,5 +1,9 @@
 *.py[cod]
 
+# Editors
+*~
+*.swp
+
 # C extensions
 *.so
 
