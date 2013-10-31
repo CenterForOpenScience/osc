@@ -23,6 +23,15 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, img, menu, nav, section {
@@ -48,6 +57,22 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	border: 1px solid gray;
+	font-size: .8em;
+}
+
+tr {
+	border-top: 1px solid #ccc;
+}
+
+th {
+	border: 1px solid #ddd;
+	font-weight: bold;
+}
+
+td {
+	border: 1px solid #ddd;
+	padding: 4px;
 }
 
 /* Mockingbird Theme by Nevan Scott nevanscott.com */
