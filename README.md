@@ -18,6 +18,8 @@ Editors will be added to the repository and given push/pull access.
 
 Because we're using Github, you can optionally use [prose.io](http://prose.io) for a wiki interface to add/edit files.
 
+(Sheila has made a [blos prose.io](http://prose.io/#CenterForOpenScience/osc) page you can use.)
+
 There's not much to it, and you can use other files as examples. You
 put markdown files in `site/content/` to publish them immediately, or
 add `Status: draft` to the header of the file to make it a draft.
