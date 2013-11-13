@@ -2,7 +2,6 @@ Title: Let’s Report Our Findings More Transparently – As We Used to Do
 Author: Etienne LeBel
 Slug: report-findings-more-transparently
 Date: 2013-11-01 2:00
-Status: draft
 
 In 1959, Festinger and Carlsmith reported the results of an experiment that spawned a voluminous body of research on cognitive dissonance. In that experiment, all subjects performed a boring task. Some participants were paid $1 or $20 to tell the next subject the task was interesting and fun whereas participants in a control condition did no such thing. All participants then indicated how enjoyable they felt the task was, their desire to participate in another similar experiment, and the scientific importance of the experiment. The authors hypothesized that participants paid $1 to tell the next participant that the boring task they just completed was interesting would experience internal dissonance, which could be reduced by altering their attitudes on the three outcomes measures. A little known fact about the results of this experiment, however, is that only on _one_ of these outcome measures did a statistically significant effect emerge across conditions. The authors reported that subjects paid $1 enjoyed the task more than those paid $20 (or the control participants), but no statistically significant differences emerged on the other two measures. 
 
