@@ -4,6 +4,8 @@ This is the repository for the [Open Science Collaboration blog](http://osc.cent
 
 If you have questions, wish to improve the site or report a problem; please add an [issue](https://github.com/CenterForOpenScience/osc/issues) to our issue tracker.  Or you can contact us by joining our [mailing list](https://groups.google.com/forum/#!forum/oscblog).
 
+To request push/pull access to the repository, comment [here](https://github.com/CenterForOpenScience/osc/issues/8).  (You will need to be known to the project to get this access.)
+
 FAQ:
 
 * What's in this repository?  How does the blog run?
