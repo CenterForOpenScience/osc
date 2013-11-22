@@ -13,15 +13,15 @@ FAQ:
 
 ## What's in this repository?  How does the blog run?
 
-This repository houses the software that runs the OSC blog.  The blog is built with [Pelican](http://blog.getpelican.com/).  Pelican is a minimalistic static-site generator built using Python.  There are two main folders within the repository.  The one named `Pelican-Mockingbird` contains template files for the site using our chosen theme, Mockingbird.  The one named `Site` contains the content for the blog, including images, pages and blog posts.  There are a few other files in the main repository.  `Build.py` and `requirements.txt` are needed for people trying to run a local version of the site (you can learn more about that by reading "How can I contribute in other ways?"). `_prose.yml` is a file to configure prose.io, a tool we use to help non-technical contributors add their posts to the site.
+This repository houses the software that runs the OSC blog.  The blog is built with [Pelican](http://blog.getpelican.com/).  Pelican is a minimalistic static-site generator built using Python.  There are two main folders within the repository.  The one named `pelican-mockingbird` contains template files for the site using our chosen theme, Mockingbird.  The one named `site` contains the content for the blog, including images, pages and blog posts.  There are a few other files in the main repository.  `build.py` and `requirements.txt` are needed for people trying to run a local version of the site (you can learn more about that by reading "How can I contribute in other ways?"). `_prose.yml` is a file to configure prose.io, a tool we use to help non-technical contributors add their posts to the site.
 
-Comments are handled via [Disqus](http://disqus.com/) and need to be better documented!
+Comments are handled via [Disqus](http://disqus.com/). Additional documentation available at the Disqus website.
 
-The blog runs on an open source server named [Nginx](http://wiki.nginx.org/Main) and is hosted at [digitalocean](https://www.digitalocean.com/).  When git (or prose.io) pushes to github, it calls a command on the webserver to update the blog automatically.  Volunters interested in maintaing the server should get in touch with Jeff Spies.
+The blog runs on an open source server named [Nginx](http://wiki.nginx.org/Main) and is hosted at [digitalocean](https://www.digitalocean.com/).  When git (or prose.io) pushes to github, it calls a command on the webserver to update the blog automatically.  Volunteers interested in maintaining the server should get in touch with Jeff Spies.
 
 ## How do I add a new post to the blog?
 
-There are three main ways to add a new post to the blog: by pushing to Github, by using Prose.io, or by sending a file to a member of the team who can add it for you.  To find a member to post, just email the oscblog mailing list and put "CONTENT:" at the beginning of the subject line.
+There are three main ways to add a new post to the blog: by pushing your file to Github, by using Prose.io, or by sending a file to a member of the team who can add it for you.  To find a member to post, just email the oscblog mailing list and put "CONTENT:" at the beginning of the subject line.
 
 For adding via Github or Prose.io, it's useful to know the following:
 
@@ -44,7 +44,7 @@ Once you've got a Github account, go to this page (<https://github.com/CenterFor
 
 #### Make a local copy.
 
-You can edit files using the Github interface, but you can't add them, which is what you need to do to add a post.  So you need to make a local copy - a copy on your computer.  (Copies on Github are called "remote" copies.)  To do that, go to your terminal (or to Git Bash, if you're using Windows) and type at the command prompt: "git clone $URL".  The specific URL you want is found in the righthand sidebar of the repository's main page under the words "HTTPS clone URL".
+You can edit files using the Github interface, but you can't add a file (like a new blog post) using the interface.  So you need to make a local copy - a copy of the repository on your computer.  (Copies on Github are called "remote" copies.)  To do that, go to your terminal (or to Git Bash, if you're using Windows) and type at the command prompt: `git clone $URL` where "$URL" is the specific URL desired and is found in the righthand sidebar of the repository's main page under the words "HTTPS clone URL".
 
 #### Make changes.
 
