@@ -1,6 +1,5 @@
 Title: Policy
 
-
 #### Attribution Policy
 
 All content on or affiliated with this site, including posts, pages, and planning documents, are licensed as [CC-BY](http://creativecommons.org/licenses/by/2.0/) unless otherwised specified.
@@ -28,3 +27,4 @@ We may turn on comment moderation if we believe the system is being abused. Comm
 #### Privacy Policy 
 
 We do not collect any information about visitors to the site.  However, we do use Disqus for commenting, which does collect personally identifiable information.  If you are concerned, we suggest reading [their privacy policy](http://help.disqus.com/customer/portal/articles/466259-privacy-policy).
+
