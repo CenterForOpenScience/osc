@@ -1,6 +1,6 @@
 Title: The State of Open Access
 Author: Shauna Gordon-McKeon
-Date: 2013-11-25 12:000
+Date: 2013-11-25 12:00
 Status: draft
 Slug: the-state-of-open-access
 
