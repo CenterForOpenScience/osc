@@ -4,7 +4,7 @@ Date: 2013-11-25 12:00
 Status: draft
 Slug: the-state-of-open-access
 
-To celebrate [Open Access Week](http://www.openaccessweek.org/) last month, we asked people four questions about the state of open access and how its changing.  Here are some in depth answers from two people working on open access: [Peter Suber](http://cyber.law.harvard.edu/~psuber/wiki/Peter_Suber), Director of the Director, [Harvard Office for Scholarly Communication](https://osc.hul.harvard.edu/) and the [Harvard Open Access Project](http://cyber.law.harvard.edu/research/hoap), and [Elizabeth Silva](http://www.plos.org/staff/elizabeth-silva/), associate editor at the Public Library of Science ([PLOS](http://www.plos.org/)).
+To celebrate [Open Access Week](http://www.openaccessweek.org/) last month, we asked people four questions about the state of open access and how its changing.  Here are some in depth answers from two people working on open access: [Peter Suber](http://cyber.law.harvard.edu/~psuber/wiki/Peter_Suber), Director of the [Harvard Office for Scholarly Communication](https://osc.hul.harvard.edu/) and the [Harvard Open Access Project](http://cyber.law.harvard.edu/research/hoap), and [Elizabeth Silva](http://www.plos.org/staff/elizabeth-silva/), associate editor at the Public Library of Science ([PLOS](http://www.plos.org/)).
 
 __How is your work relevant to the changing landscape of Open Access?  What would be a successful outcome of your work in this area?__
 
