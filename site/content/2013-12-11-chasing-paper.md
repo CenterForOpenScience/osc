@@ -1,7 +1,6 @@
 Title: Chasing Paper, Part 1
 Author: Shauna Gordon-McKeon
-Date: 2013-12-11 12:00
-Status: draft
+Date: 2013-12-11 11:30
 Slug: chasing-paper
 
 _This is part one of a three part post.  Parts two and three will appear tomorrow and Friday._
