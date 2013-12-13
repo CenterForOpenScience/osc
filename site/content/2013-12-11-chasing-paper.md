@@ -3,7 +3,7 @@ Author: Shauna Gordon-McKeon
 Date: 2013-12-11 11:30
 Slug: chasing-paper
 
-_This is part one of a three part post.  Parts two and three will appear tomorrow and Friday._
+_This is part one of a three part post.  Parts [two](http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/) and [three](http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/) have now been posted._
 
 The academic paper is old - older than the steam engine, the pocket watch, the piano, and the light bulb.  The first journal, [Philosophical Transactions](http://rstl.royalsocietypublishing.org/), was published on March 6th, 1665.  Now that doesn’t mean that the journal article format is obsolete - many inventions much older are still in wide use today.  But after a third of a millenium, it’s only natural that the format needs some serious updating.
 
