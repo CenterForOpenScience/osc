@@ -5,7 +5,7 @@ Slug: chasing-paper
 
 _This is part one of a three part post.  Parts [two](http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/) and [three](http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/) have now been posted._
 
-The academic paper is old - older than the steam engine, the pocket watch, the piano, and the light bulb.  The first journal, [Philosophical Transactions](http://rstl.royalsocietypublishing.org/), was published on March 6th, 1665.  Now that doesn’t mean that the journal article format is obsolete - many inventions much older are still in wide use today.  But after a third of a millenium, it’s only natural that the format needs some serious updating.
+The academic paper is old - older than the steam engine, the pocket watch, the piano, and the light bulb.  The first journal, [Philosophical Transactions](http://rstl.royalsocietypublishing.org/), was published on March 6th, 1665.  Now that doesn’t mean that the journal article format is obsolete - many inventions much older are still in wide use today.  But after a third of a millennium, it’s only natural that the format needs some serious updating.
 
 When brainstorming changes, it may be useful to think of the limitations of ink and paper.  From there, we can consider how new technologies can improve or even transform the journal article.  Some of these changes have already been widely adopted, while others have never even been debated.  Some are adaptive, using the greater storage capacity of computing to extend the functions of the classic journal article, while others are transformative, creating new functions and features only available in the 21st century.
 
