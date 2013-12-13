@@ -1,7 +1,6 @@
 Title: Chasing Paper, Part 3
 Author: Shauna Gordon-McKeon
 Date: 2013-12-13 12:00
-Status: draft
 Slug: chasing-paper-3
 
 _This is part three of a three part post brainstorming potential improvements to the journal article format.  Part one is [here](http://osc.centerforopenscience.org/2013/12/11/chasing-paper/), part two is [here](http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/)._
@@ -12,7 +11,7 @@ Journal articles are currently written for domain experts.  While novel concepts
 
 Why is this a problem?  For one thing, it prevents interdisciplinary collaboration.  Researchers will not make a habit of reading outside their field if it takes hours of painstaking, self-directed work to comprehend a single article.  It also discourages public engagement.  While science writers do admirable work boiling hard concepts down to their comprehensible cores, many non-scientists want to actually read the articles, and get discouraged when they can’t.	
 
-While opaque scientific writing exists in every format, technologies present new options to translate and teach.  Jargon could be linked to a glossary or [other reference material](https://en.wikipedia.org/wiki/Mouseover) or you could be given a plain english explanation of a term when your mouse hovers over it.  Perhaps each article could have multiple versions - for domain experts, other scientists, and for laypeople.	
+While opaque scientific writing exists in every format, technologies present new options to translate and teach.  Jargon could be linked to a glossary or [other reference material](https://en.wikipedia.org/wiki/Mouseover).  You could be given a plain english explanation of a term when your mouse hovers over it.  Perhaps each article could have multiple versions - for domain experts, other scientists, and for laypeople.	
 
 Of course, the ability to write accessibly is a skill not everyone has.  Luckily, any given paper would mostly use terminology already introduced in previous papers.  If researchers could easily credit the teaching and popularization work done by others, they could acknowledge the value of those contributions while at the same time making their own work accessible.
 
