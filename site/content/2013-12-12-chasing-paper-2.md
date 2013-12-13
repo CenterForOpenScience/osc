@@ -3,7 +3,7 @@ Author: Shauna Gordon-McKeon
 Date: 2013-12-12 12:00
 Slug: chasing-paper-2
 
-_This is part two of a three part post brainstorming potential improvements to the journal article format.  Part one is [here](http://osc.centerforopenscience.org/2013/12/11/chasing-paper/), part three will appear tomorrow._
+_This is part two of a three part post brainstorming potential improvements to the journal article format.  Part one is [here](http://osc.centerforopenscience.org/2013/12/11/chasing-paper/), part three is here [here](http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/)._
 
 ### The classic journal article format is not easily updated or corrected.
 
