@@ -1,4 +1,4 @@
-Title: Timeline of Notable Open Science Events in 2013: Psychology
+Title: Timeline of Notable Open Science Events in 2013 - Psychology
 Author: Jon Grahe, Pacific Lutheran University
 Date: 2014-01-01 12:00
 Status: Draft
