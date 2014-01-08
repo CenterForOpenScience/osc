@@ -59,7 +59,7 @@ _Recognize the hard work of others with words and, if you can, financial support
 
 _Collaborate._  Open source advocates have been creating tools to help share the work involved in opening research - there’s [Software Carpentry](http://software-carpentry.org/), the [Open Science Framework](https://osf.io/), [Sage Bionetworks](http://sagebase.org/platforms-and-services/), and [Research Compedia](http://researchcompendia.org/), just to name a few.  But beyond sharing tools, we can share time and resources.  Not every researcher will have the skillset, experience, or personality to quickly and easily open up their work.  Sharing efforts across labs, departments and even schools can lighten the load.  So can open science specialists, if we create a scientific culture where these specialists are trained, utilized and valued.
 
-We can and should demand open scientific practices from our colleagues and our institutions.  But we can also provide provide guidelines, tools, resources and sympathy.  Open science is hard.  Let’s not make it any harder.
+We can and should demand open scientific practices from our colleagues and our institutions.  But we can also provide guidelines, tools, resources and sympathy.  Open science is hard.  Let’s not make it any harder.
 
 
 
