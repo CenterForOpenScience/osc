@@ -7,7 +7,7 @@ When it comes to opening up your work there is, ironically, a bit of a secret.  
 
 In an effort to attract more people to the cause, advocates of openness tend to tout its benefits.  Said benefits are bountiful: increased collaboration and dissemination of ideas, transparency leading to more frequent error checking, improved reproducibility, easier meta-analysis, and greater diversity in participation, just to name a few.
 
-But there are downsides, too.  One of those is that it can be difficult to do your research openly.  (Note here that I mean well and openly.  Taking the full contents of your hard drive and dumping it on a server somewhere might be technically open, but it’s not much use to anyone).
+But there are downsides, too.  One of those is that it can be difficult to do your research openly.  (Note here that I mean well and openly.  Taking the full contents of your hard drive and dumping it on a server somewhere might be technically open, but it’s not much use to anyone.)
 
 How is it hard to open up your work?  And why?
 
