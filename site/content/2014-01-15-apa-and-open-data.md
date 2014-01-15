@@ -1,6 +1,6 @@
 Title: The APA and Open Data: one step forward, two steps back?
 Author: Denny Borsboom
-Date: 2013-11-20 2:00
+Date: 2014-11-15 11:20
 Slug: apa-and-open-data
 
 <img src="/images/DennyPortrait-cropped.png" alt="Photo of Denny
