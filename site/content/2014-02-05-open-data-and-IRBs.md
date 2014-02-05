@@ -1,7 +1,6 @@
 Title: Open Data and IRBs
 Author: Bryan Burnham
 Date: 2014-02-05 11:00
-Status: draft
 Slug: open-data-and-IRBs
 
 Among other things the open science movement encourages “open data” practices, that is, researchers making data freely available on personal/lab websites or institutional repositories for others to use. For some, open data is a necessity as the [NIH](http://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm#goals) and [NSF](http://www.nsf.gov/bfa/dias/policy/dmp.jsp) have adopted data-sharing policies and require some grant applications to include data management and dissemination plans. According to the NIH:
