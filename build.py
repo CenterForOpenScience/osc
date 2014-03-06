@@ -13,7 +13,6 @@ settings.update({
     u'AUTHOR': '',
     u'SITENAME': 'Open Science Collaboration Blog',
     u'TIMEZONE': 'America/New_York',
-    u'STATIC_PATHS': (['images'],['static']),
     u'LINKS': (
     ),
     u'SOCIAL' : (
@@ -24,11 +23,14 @@ settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
 
+
 def generate(settings, input_path=None, output_path=None, theme_path=None, siteurl=None ):
     settings['PATH'] = input_path
     settings['OUTPUT_PATH'] =  output_path
     settings['THEME'] = theme_path
     settings['SITEURL'] = siteurl
+    settings['STATIC_PATHS'] = ['images', 'static']
+
 
     if settings['SITEURL'].endswith('/'):
         settings['SITEURL'] = settings['SITEURL'][:-1]
