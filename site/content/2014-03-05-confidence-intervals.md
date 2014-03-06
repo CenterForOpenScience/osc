@@ -64,7 +64,7 @@ Similar functions are available in the MBESS package for calculating confidence 
 
 ##### Additional Resources
 
-* Fred Hasselman has created [a brief tutorial]() for computing effect size confidence intervals using R.  
+* Fred Hasselman has created [a brief tutorial](http://osc.centerforopenscience.org/pages/misc/using_R_to_compute_effect_size_CIs.html) for computing effect size confidence intervals using R.  
 
 * For those more familiar with conducting statistics in an SPSS environment, Dr. Karl Wuensch at East Carolina University provides links to several SPSS programs on his Web Page.  [This program](http://core.ecu.edu/psyc/wuenschk/SPSS/SPSS-Programs.htm) is for calculating confidence intervals for a standardized mean difference (Cohen’s d).  
 
