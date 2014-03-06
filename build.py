@@ -13,6 +13,7 @@ settings.update({
     u'AUTHOR': '',
     u'SITENAME': 'Open Science Collaboration Blog',
     u'TIMEZONE': 'America/New_York',
+    u'STATIC_PATHS': (['images'],['static']),
     u'LINKS': (
     ),
     u'SOCIAL' : (
