@@ -2,7 +2,6 @@ Title: Confidence Intervals for Effect Sizes from Noncentral Distributions
 Author: Russ Clay
 Date: 2014-03-06 12:00
 Slug: confidence intervals
-Status: draft
 
 <sup>(Thanks to Shauna Gordon-McKeon, Fred Hasselman, Daniël Lakens, Sean Mackinnon, and Sheila Miguez for their contributions and feedback to this post.)</sup>
 
@@ -64,7 +63,7 @@ Similar functions are available in the MBESS package for calculating confidence 
 
 ##### Additional Resources
 
-* Fred Hasselman has created [a brief tutorial](http://osc.centerforopenscience.org/materials/using_R_to_compute_effect_size_CIs.html) for computing effect size confidence intervals using R.  
+* Fred Hasselman has created [a brief tutorial](http://osc.centerforopenscience.org/static/CIs_in_r.html) for computing effect size confidence intervals using R.  
 
 * For those more familiar with conducting statistics in an SPSS environment, Dr. Karl Wuensch at East Carolina University provides links to several SPSS programs on his Web Page.  [This program](http://core.ecu.edu/psyc/wuenschk/SPSS/SPSS-Programs.htm) is for calculating confidence intervals for a standardized mean difference (Cohen’s d).  
 
