@@ -39,4 +39,7 @@ nosetests.xml
 .pydevproject
 .idea
 
+# Operating System
+.DS_STORE
+
 output
