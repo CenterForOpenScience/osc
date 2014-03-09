@@ -40,6 +40,6 @@ nosetests.xml
 .idea
 
 # Operating System
-.DS_STORE
+.DS_Store
 
 output
