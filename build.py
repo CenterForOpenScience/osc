@@ -1,7 +1,11 @@
 from pelican import Pelican
 import pelican.settings
 
+
 import os
+
+PLUGIN_PATH = "plugins"
+PLUGINS = ["share-post"]
 
 settings = pelican.settings.DEFAULT_CONFIG
 
