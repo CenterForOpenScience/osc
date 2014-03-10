@@ -3,6 +3,7 @@ import pelican.settings
 
 import os
 
+
 settings = pelican.settings.DEFAULT_CONFIG
 
 for i in ['PATH', 'OUTPUT_PATH', 'THEME', 'SITEURL']:
@@ -22,7 +23,9 @@ settings.update({
 settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
-
+settings['SUMMARY_MAX_LENGTH'] = 100
+PLUGIN_PATH = 'plugins'
+PLUGINS = ['summary']
 
 def generate(settings, input_path=None, output_path=None, theme_path=None, siteurl=None ):
     settings['PATH'] = input_path
