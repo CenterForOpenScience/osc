@@ -22,10 +22,6 @@ settings.update({
     ),
 })
 
-settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
-
 
 def generate(settings,
     input_path=None,
@@ -36,6 +32,10 @@ def generate(settings,
     plugin_path=None,
     plugins=None
 ):
+    settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+    settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+    settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
+
     settings['PATH'] = input_path
     settings['OUTPUT_PATH'] =  output_path
     settings['THEME'] = theme_path
