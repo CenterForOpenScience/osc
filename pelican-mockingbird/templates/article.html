@@ -3,6 +3,22 @@
 {% block title %}{{ SITENAME }} &middot; {{ article.title }}{% endblock %}
 {% block content %}
 {% include "article_stub.html" %}
+
+        {% if article.share_post and article.status != 'draft' %}
+          <section>
+            <p id="post-share-links">
+              Share on:
+              <a style ="color:firebrick;" href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">Twitter</a>
+              ❄
+              <a style ="color:firebrick;" href="{{article.share_post['facebook']}}" target="_blank" title="Share on Facebook">Facebook</a>
+              ❄
+              <a style ="color:firebrick;" href="{{article.share_post['google-plus']}}" target="_blank" title="Share on Google Plus">Google+</a>
+              ❄
+              <a style ="color:firebrick;" href="{{article.share_post['email']}}" target="_blank" title="Share via Email">Email</a>
+            </p>
+          </section>
+        {% endif %}
+
         {% if DISQUS_SITENAME %}
                 <div class="comments">
                 <h2>Comments</h2>
@@ -19,4 +35,5 @@
                         </script>
                 </div>
                 {% endif %}
+
 {% endblock %}
