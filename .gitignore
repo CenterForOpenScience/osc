@@ -7,6 +7,33 @@
 # C extensions
 *.so
 
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+__pycache__
+pip-log.txt
+.coverage
+.tox
+nosetests.xml
+*.mo
+.idea
+.hg
+.hgignore
+env/*
+cover/
+
+
 # Packages
 *.egg
 *.egg-info
