@@ -4,8 +4,7 @@ import pelican.settings
 
 import os
 
-PLUGIN_PATH = "plugins"
-PLUGINS = ["share-post"]
+
 
 settings = pelican.settings.DEFAULT_CONFIG
 
@@ -21,6 +20,8 @@ settings.update({
     ),
     u'SOCIAL' : (
     ),
+    u"PLUGIN_PATH":"plugins",
+    u"PLUGINS" = ["share-post"],
 })
 
 settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
