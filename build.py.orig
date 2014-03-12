@@ -4,6 +4,11 @@ import pelican.settings
 
 import os
 
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 975f527... Added Summary plugin
 settings = pelican.settings.DEFAULT_CONFIG
 
 for i in ['PATH', 'OUTPUT_PATH', 'THEME', 'SITEURL']:
@@ -20,6 +25,7 @@ settings.update({
     ),
 })
 
+<<<<<<< HEAD
 
 def generate(settings,
     input_path=None,
@@ -33,7 +39,14 @@ def generate(settings,
     settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
     settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
     settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
-    settings['SUMMARY_MAX_LENGTH'] = 10000
+=======
+settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
+# PLUGIN_PATH = 'plugins'
+# PLUGINS = ['summary']
+>>>>>>> 975f527... Added Summary plugin
+
     settings['PATH'] = input_path
     settings['OUTPUT_PATH'] =  output_path
     settings['THEME'] = theme_path
@@ -61,5 +74,5 @@ if __name__ == '__main__':
         siteurl='http://osc.centerforopenscience.org',
         static_paths=['images', 'static'],
         plugin_path='plugins',
-        plugins=["share-post","summary"]
+        plugins=["share-post"]
     )

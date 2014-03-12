@@ -13,7 +13,7 @@
                     {% if article.author != 'None' %}
                     by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a>
                     {% endif %}
-                    {{ article.content }}
+                    {{ article.summary }} <a href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
 
                     {% if article.share_post and article.status != 'draft' %}
                       <section>
