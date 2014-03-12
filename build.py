@@ -21,7 +21,7 @@ settings.update({
     u'SOCIAL' : (
     ),
     u"PLUGIN_PATH":"plugins",
-    u"PLUGINS" = ["share-post"],
+    u"PLUGINS":["share-post"],
 })
 
 settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
