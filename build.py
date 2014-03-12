@@ -20,8 +20,6 @@ settings.update({
     ),
     u'SOCIAL' : (
     ),
-    u"PLUGIN_PATH":"plugins",
-    u"PLUGINS":["share-post"],
 })
 
 settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
@@ -29,12 +27,22 @@ settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
 
 
-def generate(settings, input_path=None, output_path=None, theme_path=None, siteurl=None ):
+def generate(settings,
+    input_path=None,
+    output_path=None,
+    theme_path=None,
+    siteurl=None,
+    static_paths=None,
+    plugin_path=None,
+    plugins=None
+):
     settings['PATH'] = input_path
     settings['OUTPUT_PATH'] =  output_path
     settings['THEME'] = theme_path
     settings['SITEURL'] = siteurl
-    settings['STATIC_PATHS'] = ['images', 'static']
+    settings['STATIC_PATHS'] = static_paths
+    settings["PLUGIN_PATH"] = plugin_path
+    settings["PLUGINS"] = plugins
 
 
     if settings['SITEURL'].endswith('/'):
@@ -46,10 +54,14 @@ def generate(settings, input_path=None, output_path=None, theme_path=None, siteu
     settings = pelican.settings.configure_settings(settings)
     Pelican(settings).run()
 
-generate(
-    settings,
-    input_path='site/content',
-    output_path='output/',
-    theme_path='pelican-mockingbird/',
-    siteurl='http://osc.centerforopenscience.org'
-)
+if __name__ == '__main__':
+    generate(
+        settings,
+        input_path='site/content',
+        output_path='output/',
+        theme_path='pelican-mockingbird/',
+        siteurl='http://osc.centerforopenscience.org',
+        static_paths=['images', 'static'],
+        plugin_path='plugins',
+        plugins=["share-post"]
+    )
