@@ -24,21 +24,6 @@
 			   {% endif %}
 		    {% endif %}
 
-                    {% if article.share_post and article.status != 'draft' %}
-                      <section>
-                        <p id="post-share-links">
-                          Share on:
-                          <a style ="color:firebrick;" href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">Twitter</a>
-                          ❄
-                          <a style ="color:firebrick;" href="{{article.share_post['facebook']}}" target="_blank" title="Share on Facebook">Facebook</a>
-                          ❄
-                          <a style ="color:firebrick;" href="{{article.share_post['google-plus']}}" target="_blank" title="Share on Google Plus">Google+</a>
-                          ❄
-                          <a style ="color:firebrick;" href="{{article.share_post['email']}}" target="_blank" title="Share via Email">Email</a>
-                        </p>
-                      </section>
-                    {% endif %}
-
                     <div class="clear"></div>
                     <div class="info">
                         {% if DISQUS_SITENAME %}<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" data-disqus-identifier="{{article.url}}" style="text-decoration:underline; color: black">Discuss this post</a> | {% endif %}
