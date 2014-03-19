@@ -13,7 +13,16 @@
                     {% if article.author != 'None' %}
                     by <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">{{ article.author }}</a>
                     {% endif %}
-                    {{ article.summary }} <a href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
+
+		    {% if article.summary == article.content %}
+   			   {{ article.content }}
+		    {%- else -%}
+ 			   {% if articles_page %}
+		           	{{ article.summary }} <a href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
+			   {%- else -%}
+				{{ article.content }}
+			   {% endif %}
+		    {% endif %}
 
                     {% if article.share_post and article.status != 'draft' %}
                       <section>
