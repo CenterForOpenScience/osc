@@ -2,7 +2,6 @@ Title: Behavioral Priming: Time to Nut Up or Shut Up
 Author: EJ Wagenmakers
 Date: 2014-03-26 12:00
 Slug: behavioral-priming
-Status: draft
 Tags: social-priming-and-reproducibility
 
 <!-- PELICAN_BEGIN_SUMMARY -->
