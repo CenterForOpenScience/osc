@@ -1,0 +1,36 @@
+Title: Behavioral Priming: Time to Nut Up or Shut Up
+Author: EJ Wagenmakers
+Date: 2014-03-26 12:00
+Slug: behavioral-priming
+Status: draft
+Tags: social-priming-and-reproducibility
+
+<!-- PELICAN_BEGIN_SUMMARY -->
+In the epic movie "Zombieland", one of the main protagonists –Tallahassee, played by Woody Harrelson– is about to enter a zombie-infested supermarket in search of Twinkies. Armed with a banjo, a baseball bat, and a pair of hedge shears, he tells his companion it is "time to nut up or shut up". In other words, the pursuit of happiness sometimes requires that you expose yourself to grave danger. Tallahasee could have walked away from that supermarket and its zombie occupants, but then he would never have discovered whether or not it contained the Twinkies he so desired.   
+
+At its not-so-serious core, Zombieland is about leaving one's comfort zone and facing up to your fears. This I believe is exactly the challenge that confronts the proponents of behavioral priming today. To recap, the phenomenon of behavioral priming refers to unconscious, indirect influences of prior experiences on actual behavior. For instance, presenting people with words associated with old age ("Florida", "grey", etc.) primes the elderly stereotype and supposedly makes people walk more slowly; in the same vein, having people list the attributes of a typical professor ("confused", "nerdy", etc.) primes the concept of intelligence and supposedly makes people answer more Trivia questions correctly.   
+
+In recent years, the phenomenon of behavioral priming has been scrutinized with increasing intensity. Crucial to the debate is that many (if not all) of the behavioral priming effects appear to vanish like thin air in the hands of other researchers. Many of these researchers –from now on, the skeptics– have reached the conclusion that behavioral priming effects are elusive, brought about mostly by confirmation bias, the use of questionable research practices, and selective reporting.   
+
+<!-- PELICAN_END_SUMMARY -->
+
+In [an open letter to priming researchers](http://www.nature.com/polopoly_fs/7.6716.1349271308!/suppinfoFile/Kahneman%20Letter.pdf), Daniel Kahneman summarized the situation as follows (I am quoting liberally because I believe Kahneman is spot on):  
+
+> "As all of you know, of course, questions have been raised about the robustness of priming results (...) your field is now the poster child for doubts about the integrity of psychological research. Your problem is not with the few people who have actively challenged the validity of  some priming results. It is with the much larger population of colleagues who in the past accepted your surprising results as facts when they were published. These people have now attached a question mark to the field, and it is your responsibility to remove it. (...) My reason for writing this letter is that I see a train wreck looming. (...) I believe that you should collectively do something about this mess. To deal effectively with the doubts you should acknowledge their existence and confront them straight on, because a posture of defiant denial is self-defeating. Specifically, I believe that you should have an association, with a board that might include prominent social psychologists from other fields. The first mission of the board would be to organize an effort to examine the replicability of priming results, following a protocol that avoids the questions that have been raised and guarantees credibility among colleagues outside the field."  
+
+As Kahneman suggests, priming proponents have a choice between two options: (1) defiant denial; (2) Tallahassee's "nut up or shut up" approach, that is, concrete empirical action to convince the world that the phenomenon is real. Kahneman wrote his letter on September 26, 2012, and so far the field has chosen to take the first option. Kahneman's plea for replication has been all but ignored. I have personally experienced the reluctance of priming proponents to enter any sort of collaboration, or commit to any sort of preregistration that may be conceived as a critical test of the priming phenomenon. One exception to the rule is Fritz Strack, who has kindly agreed to help out with a preregistered replication attempt of his famous facial feedback study for _Perspectives on Psychological Science_. Another exception to the rule is Sascha Topolinski, who was extremely helpful when my lab tried to replicate one of his experiments on clockwise movements inducing preference for novelty. A final exception is the mega-study by Brent Donnellan, Richard Lucas, and Joe Cesario (in press), who failed to replicate the finding that people compensate for feeling lonely by taking warm baths and showers.  
+
+As is vividly illustrated by several articles published in a recent issue of _Perspectives on Psychological Science_, priming proponents have argued that the concept of direct replicability is a mirage (see for instance Cesario, 2014; Stroebe and Strack, 2014). Specifically, any direct replication attempt may be foiled by unrecognized moderator variables. For instance, the professor priming effect may hold up in Bloomington but it may fail when replicated in Purdue – not because the effect is unreliable or absent, but because Purdue students may not associate professors with intelligence for some reason (but see Simons, 2014). Priming proponents do have a logically valid point: moderators may be important, for some studies, in some situations. But, logically valid or not, this completely misses the mark. As Kahneman argued in his letter, defiant denial will not silence the growing chorus of skeptics. The train has left the station a few years ago, and the only way for priming proponents to regain lost ground is to engage in adversarial collaborations, preregistred replications, and other rigourous methods to re-establish scientific credibility.
+
+One may argue that a healthy scientific field, when challenged at its core empirical assumptions, should have heeded Kahneman's advice immediately. But it is not too late. Perhaps priming proponents will begin to realize that defiant denial is indeed self-defeating. Skeptics will remain active, infecting more and more researchers as times goes by. To prevent a priming apocalypse, the proponents will ultimately be forced to face up to their fears and take concrete empirical action. Perhaps they will be zombie lunch but there is no other way to regain credibility. Time to nut up or shut up.
+
+
+__References__
+
+Cesario, J. (2014). Priming, replication, and the hardest science. Perspectives on Psychological Science, 9, 40-48.
+
+Donnellan, M. B., Lucas, R. E., & Cesario, J. (in press). On the association between loneliness and bathing habits: Nine replications of Bargh and Shalev (2012) Study 1. Emotion.
+
+Simons, D. J. (2014). The value of direct replication. Perspectives on Psychological Science, 9, 76-80.
+
+Stroebe, W. & Strack, F. (2014). The alleged crisis and the illusion of exact replication. Perspectives on Psychological Science, 9, 59-71.
