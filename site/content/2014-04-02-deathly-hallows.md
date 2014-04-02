@@ -2,7 +2,6 @@ Title: The Deathly Hallows of Psychological Science
 Author: Brent W. Roberts
 Date: 2014-04-02 12:30
 Slug: deathly-hallows
-Status: draft
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 _This piece was [originally posted](http://pigee.wordpress.com/2014/03/10/the-deathly-hallows-of-psychological-science/) to the Personality Interest Group and Espresso (PIG-E) web blog at the University of Illinois._
