@@ -103,12 +103,12 @@ li a {
 
 ul {
 	list-style: outside disc;
-	padding-left:15px;
+	padding-left:30px;
         }
 
 ol {
 	list-style: outside decimal;
-	padding-left:15px;
+	padding-left:30px;
         }
 
 h1, h2, h3, h4, h5, h6 {
