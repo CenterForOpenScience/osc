@@ -14,4 +14,7 @@ __Shauna Gordon-McKeon__ is a programmer and educator who works and volunteers f
 
 __Etienne LeBel__ is an Assistant Professor in the Department of Psychology at Montclair State University and is founder of PsychDisclosure.org. He conducts substantive research in the area of social cognition, but has increasingly become interested in meta-scientific topics related to openness and replication. He is particularly interested in the different causal connections between openness and replication. For example, how open materials influence the routine execution of independent replication and consequently the research culture regarding the role of independent replications in knowledge development. He will be writing about replicability issues as it relates to openness and changes in editorial and publication practices.
 
+__Åse Innes-Ker__ is a “Universitetslektor” at Lund University in Sweden. She has a background in Cognitive Science and Social Psychology with an emphasis on Emotion, but have also published on meta-cognition within Forensic Psychology. She heads a loose network of Emotion Researchers called [NEER](http://neerpsy.se/index.html) at Lund University where some of the projects are cross-disciplinary work on film-cognition and emotion. In her spare time, she thinks, and blogs about, fixing science.  
+
 _The Open Science Collaboration welcomes new contributors.  If you'd like to write a guest post or become a regular contributor, contact us via email at oscbloggers@gmail.com or tweet @OSCbloggers._
+
