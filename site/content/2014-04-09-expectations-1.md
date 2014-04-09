@@ -2,7 +2,6 @@ Title: Expectations of replicability and variability in priming effects, Part I:
 Author: Joseph Cesario, Kai Jonas
 Date: 2014-04-09 11:00
 Slug: expectations-1
-Status: draft
 Tags: social-priming-and-reproducibility
 
 <!-- PELICAN_BEGIN_SUMMARY -->
@@ -31,6 +30,8 @@ Bargh, J.A., Chen, M., & Burrows, L. (1996). Automaticity of social behavior: Di
 Cesario, J. (2014). Priming, replication, and the hardest science. _Perspectives on Psychological Science_, 9, 40-48. doi: 10.1177/1745691613513470
 
 Cesario, J. & Jonas, K.J. (in press). Replicability and models of priming: What a resource computation framework can tell us about expectations of replicability. _Social Cognition: Invited submission for the special issue on priming._
+
+Higgins, E.T. (1996). Knowledge activation: Accessibility, applicability, and salience. In E. T. Higgins & A. W. Kruglanski (Eds.), _Social psychology: Handbook of basic principles_ (pp. 133-168). New York: Guilford Press.
 
 Meier, B.P., Schnall, S., Schwarz, N., & Bargh, J.A. (2012). Embodiment in social psychology. _Topics in Cognitive Science_, 4, 705-716. doi: 10.1111/j.1756-8765.2012.01212.x
 
