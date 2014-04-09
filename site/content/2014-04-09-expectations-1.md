@@ -24,14 +24,14 @@ We are in disagreement with both these interpretations. To clarify, we start wit
 
 __References__
 
-Bargh, J.A. (1989). Conditional automaticity: Varieties of automatic influence in social perception and cognition. In J. S. Uleman & J. A. Bargh (Eds.), Unintended Thoughts (pp. 3-51). New York: Guilford.
+Bargh, J.A. (1989). Conditional automaticity: Varieties of automatic influence in social perception and cognition. In J. S. Uleman & J. A. Bargh (Eds.), _Unintended Thoughts_ (pp. 3-51). New York: Guilford.
 
-Bargh, J.A., Chen, M., & Burrows, L. (1996). Automaticity of social behavior: Direct effects of trait construct and stereotype activation on action. Journal of Personality and Social Psychology, 71, 230-244. doi: 10.1037/0022-3514.71.2.230
+Bargh, J.A., Chen, M., & Burrows, L. (1996). Automaticity of social behavior: Direct effects of trait construct and stereotype activation on action. _Journal of Personality and Social Psychology_, 71, 230-244. doi: 10.1037/0022-3514.71.2.230
 
-Cesario, J. (2014). Priming, replication, and the hardest science. Perspectives on Psychological Science, 9, 40-48. doi: 10.1177/1745691613513470
+Cesario, J. (2014). Priming, replication, and the hardest science. _Perspectives on Psychological Science_, 9, 40-48. doi: 10.1177/1745691613513470
 
-Cesario, J. & Jonas, K.J. (in press). Replicability and models of priming: What a resource computation framework can tell us about expectations of replicability. Social Cognition: Invited submission for the special issue on priming.
+Cesario, J. & Jonas, K.J. (in press). Replicability and models of priming: What a resource computation framework can tell us about expectations of replicability. _Social Cognition: Invited submission for the special issue on priming._
 
-Meier, B.P., Schnall, S., Schwarz, N., & Bargh, J.A. (2012). Embodiment in social psychology. Topics in Cognitive Science, 4, 705-716. doi: 10.1111/j.1756-8765.2012.01212.x
+Meier, B.P., Schnall, S., Schwarz, N., & Bargh, J.A. (2012). Embodiment in social psychology. _Topics in Cognitive Science_, 4, 705-716. doi: 10.1111/j.1756-8765.2012.01212.x
 
-Stroebe, W. & Strack, F. (2014). The alleged crisis and the illusion of exact replication. Perspectives on Psychological Science, 9, 59-71.
+Stroebe, W. & Strack, F. (2014). The alleged crisis and the illusion of exact replication. _Perspectives on Psychological Science_, 9, 59-71.
