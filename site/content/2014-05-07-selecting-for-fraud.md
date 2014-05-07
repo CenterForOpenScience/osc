@@ -18,3 +18,5 @@ This does give an advantage to those with good scientific intuitions, which is a
 One of the more famous examples of natural selection is the peppered moth of England.  Before the Industrial Revolution, these moths were lightly colored, allowing them to blend in with the light gray bark of the average tree.  During the Industrial Revolution, extreme pollution painted the trees of England black with soot.  To adapt, peppered moths evolved dark, soot-colored wings.  
 
 We can censure the individuals who commit fraud, but this is like punishing the peppered moth for its dirty wings.  As long as success in the scientific community is measured by results and not process, we will continue to select for those willing to violate process in order to ensure results.  Our species, the scientists, need to change our environment if we want to evolve past fraud.  
+
+<img src="/images/moth.jpg" alt="Photo of Jon Grahe" align="center" width="600px" />
