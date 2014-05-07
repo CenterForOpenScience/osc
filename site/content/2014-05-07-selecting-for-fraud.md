@@ -2,6 +2,7 @@ Title: When Science Selects for Fraud
 Author: Shauna Gordon-McKeon
 Date: 2014-05-07 12:30
 Slug: selecting-for-fraud
+FacebookImage: http://osc.centerforopenscience.org/images/moth.jpg
 
 _This post is in response to [Jon Grahe's recent article](http://osc.centerforopenscience.org/2014/05/02/avoiding-a-witch-hunt/) in which he invited readers to propose metaphors that might help us understand why fraud occurs and how to prevent it._
 
