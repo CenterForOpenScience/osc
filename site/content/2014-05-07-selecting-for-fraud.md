@@ -20,3 +20,4 @@ One of the more famous examples of natural selection is the peppered moth of Eng
 We can censure the individuals who commit fraud, but this is like punishing the peppered moth for its dirty wings.  As long as success in the scientific community is measured by results and not process, we will continue to select for those willing to violate process in order to ensure results.  Our species, the scientists, need to change our environment if we want to evolve past fraud.  
 
 <img src="/images/moth.jpg" alt="Photo of Jon Grahe" align="center" width="600px" />
+[Biston betularia by Donald Hobern](https://www.flickr.com/photos/dhobern/7522055588/in/photolist-bwwkzi-a2zqz8-a2CkHA-4RecUF-6uwtBr-a9tjNF-dyGUvV-6Mhm2U-2tw4Qf-cTZ46w-fzqdc-fzqdj-9QBTbx-f5YrkT-csGu1y-csGv4A-bV36Wk-c4U7JS-fpNHoh), CC BY 2.0
