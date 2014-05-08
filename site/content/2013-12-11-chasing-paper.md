@@ -2,6 +2,7 @@ Title: Chasing Paper, Part 1
 Author: Shauna Gordon-McKeon
 Date: 2013-12-11 11:30
 Slug: chasing-paper
+Tags: chasing-paper
 
 _This is part one of a three part post.  Parts [two](http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/) and [three](http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/) have now been posted._
 
