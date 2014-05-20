@@ -2,7 +2,6 @@ Title: Support Publication of Clinical Trials for International Clinical Trials 
 Author: Shauna Gordon-McKeon
 Date: 2014-05-20 11:00
 Slug: clinical-trials-day
-Status: draft
 
 Today is International Clinical Trials Day, held on May 20th in honor of George Lind, the famous Scottish physician who began one of the world's first clinical trials on May 20th, 1747.  This trial discovered that vitamin C deficiency was the cause of scurvy.  While it and the other life-saving trials that have been conducted in the last two hundred and sixty seven years are surely worth celebration, International Clinical Trials Day is also a time to reflect on the problems that plague the clinical trials system.  In particular, the lack of reporting on nearly half of all clinical trials has potentially deadly consequences.
 
