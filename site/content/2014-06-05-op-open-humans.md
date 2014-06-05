@@ -1,7 +1,6 @@
 Title: Open Projects - Open Humans
 Author: Shauna Gordon-McKeon
 Date: 2014-06-5 12:00
-Status: draft
 Tags: open-projects
 Slug: op-open-humans
 
