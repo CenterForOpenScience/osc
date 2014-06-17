@@ -41,7 +41,7 @@ def generate(settings,
     settings['STATIC_PATHS'] = static_paths
     settings["PLUGIN_PATH"] = plugin_path
     settings["PLUGINS"] = plugins
-
+    settings["DEFAULT_PAGINATION"] = 10
 
     if settings['SITEURL'].endswith('/'):
         settings['SITEURL'] = settings['SITEURL'][:-1]
