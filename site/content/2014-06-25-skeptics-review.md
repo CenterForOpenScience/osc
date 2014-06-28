@@ -7,7 +7,7 @@ Slug: a-skeptics-review
 
 James Randi, magician and scientific skeptic, has compared those who believe in the paranormal to “unsinkable rubber ducks”: after a particular claim has been thoroughly debunked, the ducks submerge, only to resurface again a little later to put forward similar claims.  
 
-In light of this analogy, it comes as no surprise that Bem and colleagues have produced a new paper claiming that people can look into the future. The paper is titled [“Feeling the Future: A Meta-Analysis of 90 Experiments on the Anomalous Anticipation of Random Future Events”]((http://ssrn.com/abstract=2423692)) and it is authored by Bem, Tressoldi, Rabeyron, and Duggan.
+In light of this analogy, it comes as no surprise that Bem and colleagues have produced a new paper claiming that people can look into the future. The paper is titled [“Feeling the Future: A Meta-Analysis of 90 Experiments on the Anomalous Anticipation of Random Future Events”](http://ssrn.com/abstract=2423692) and it is authored by Bem, Tressoldi, Rabeyron, and Duggan.
 
 Several of my colleagues have browsed Bem's meta-analysis and have asked for my opinion. Surely, they say, the statistical evidence is overwhelming, regardless of whether you compute a p-value or a Bayes factor. Have you not changed your opinion? This is a legitimate question, one which I will try and answer below by showing you my review of an earlier version of the Bem et al. manuscript.  
 
