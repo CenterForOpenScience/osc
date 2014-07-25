@@ -7,6 +7,6 @@ git checkout gh-pages
 echo "osc.centerforopenscience.org" > CNAME
 git add CNAME
 git commit -m "commit CNAME file"
-git checkout master
-git push origin gh-pages
+git checkout sgm
+git push cos gh-pages
 
