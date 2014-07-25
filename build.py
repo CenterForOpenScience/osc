@@ -1,13 +1,14 @@
-ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+DEFAULT_PAGINATION = 10
 DISQUS_SITENAME = 'opensciencecollaboration'
-SUMMARY_MAX_LENGTH = 10000
-PATH = 'site/content'
+DISPLAY_PAGES_ON_MENU = True
 OUTPUT_PATH =  'output/'
-THEME = 'pelican-mockingbird/'
+PATH = 'site/content'
+PLUGINS = ["share-post","summary"]
+PLUGIN_PATH = 'plugins'
 SITEURL = 'http://centerforopenscience.github.io/osc'
 STATIC_PATHS = ['images', 'static']
-PLUGIN_PATH = 'plugins'
-PLUGINS = ["share-post","summary"]
-DEFAULT_PAGINATION = 10
+SUMMARY_MAX_LENGTH = 10000
+THEME = 'pelican-mockingbird/'
 
