@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Science Collaboration Blog</title><link href="http://osc.centerforopenscience.org/" rel="alternate"></link><link href="http://osc.centerforopenscience.org/feeds/none.atom.xml" rel="self"></link><id>http://osc.centerforopenscience.org/</id><updated>2013-10-16T09:54:00-04:00</updated><entry><title>Thriving au naturel amid science on steroids</title><link href="http://osc.centerforopenscience.org/2013/10/16/thriving-au-naturel-amid-science-on-steroids/" rel="alternate"></link><updated>2013-10-16T09:54:00-04:00</updated><author><name>None</name></author><id>tag:osc.centerforopenscience.org,2013-10-16:2013/10/16/thriving-au-naturel-amid-science-on-steroids/</id><summary type="html">&lt;p&gt;&lt;a href="http://briannosek.com"&gt;Brian A. Nosek&lt;/a&gt;&lt;br /&gt;
+University of Virginia, Center for Open Science&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jeffspies.com"&gt;Jeffrey R. Spies&lt;/a&gt;&lt;br /&gt;
+Center for Open Science&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/bnosek.jpg" alt="Photo of Brian Nosek" align="left" style="padding-right: 20px;" width="100px"&gt; &lt;img src="/images/jspies.jpg" alt="Photo of Jeffrey Spies" align="left" style="padding-right: 20px;" width="100px"&gt; Last fall, the present first author taught a graduate class called
+“Improving (Our) Science” at the University of Virginia. The class
+reviewed evidence suggesting that scientific practices are not operating
+ideally and are damaging the reproducibility of publishing findings. For
+example, the power of an experimental design in null hypothesis
+significance testing is a function of the effect size being investigated
+and the size the sample to test it—power is greater when effects are
+larger and samples are bigger. In the authors’ field of psychology, for
+example, estimates suggest that the power of published studies to detect
+an average effect size is .50 or less (Cohen, 1962; Gigerenzer &amp;amp;
+Sedlmeier, 1989). Assuming that all of the published effects are true,
+approximately 50% of published studies would reveal positive results
+(i.e., &lt;em&gt;p&lt;/em&gt; &amp;lt; .05 supporting the hypothesis). In reality, more than 90%
+of published results are positive (Sterling, 1959; &lt;a href="http://dx.doi.org/10.1371/journal.pone.0010068"&gt;Fanelli,
+2010&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;How is it possible that the average study has power to detect the
+average true effect 50% of the time or less and yet does so about 90% of
+the time? It isn’t. Then how does this occur? One obvious contributor is
+selective reporting. Positive effects are more likely than negative
+effects to be submitted and accepted for publication (Greenwald, 1975).
+The consequences include [1] the published literature is more likely to
+exaggerate the size of true effects because with low powered designs
+researchers must still leverage chance to obtain a large enough effect
+size to produce a positive result; and [2] the proportion of false
+positives – there isn’t actually an effect to detect – will be inflated
+beyond the nominal alpha level of 5% (Ioannidis, 2005).&lt;/p&gt;
+&lt;p&gt;The class discussed this and other scientific practices that may
+interfere with knowledge accumulation. Some of the relatively common
+ones are described in Table 1 along with some solutions that we, and
+others, identified. Problem. Solution. Easy. The class just fixed
+science. Now, class members can adopt the solutions as best available
+practices. Our scientific outputs will be more accurate, and significant
+effects will be more reproducible. Our science will be better.&lt;/p&gt;
+&lt;p&gt;Alex Schiller, a class member and graduate student, demurred. He agreed
+that the new practices would make science better, but disagreed that we
+should do them all. A better solution, he argued, is to take small
+steps: adopt one solution, wait for that to become standard scientific
+practice, and then adopt another solution.&lt;/p&gt;
+&lt;p&gt;We know that some of our practices are deficient, we know how to improve
+them, but Alex is arguing that we shouldn’t implement all the solutions?
+Alex’s lapse of judgment can be forgiven—he’s just a graduate student.
+However, his point isn’t a lapse. Faced with the reality of succeeding
+as a scientist, Alex is right.&lt;/p&gt;
+&lt;h2&gt;Table 1&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Scientific practices that increase irreproducibility of
+published findings, possible solutions, and barriers that prevent
+adoption of those solutions&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Practice&lt;/th&gt;
+&lt;th&gt;Problem&lt;/th&gt;
+&lt;th&gt;Possible Solution&lt;/th&gt;
+&lt;th&gt;Barrier to Solution&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Run many low-powered studies rather than few high-powered studies&lt;/td&gt;
+&lt;td&gt;Inflates false positive and false negative rates&lt;/td&gt;
+&lt;td&gt;Run high-powered studies&lt;/td&gt;
+&lt;td&gt;Non-significant effects are a threat to publishability; Risky to devote extra resources to high-powered tests that might not produce significant effects&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Report significant effects and dismiss non-significant effects as methodologically flawed&lt;/td&gt;
+&lt;td&gt;Using outcome to evaluate method is a logical error and can inflate false positive rate&lt;/td&gt;
+&lt;td&gt;Report all effects with rationale for why some should be ignored; let reader decide&lt;/td&gt;
+&lt;td&gt;Non-significant and mixed effects are a threat to publishability&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Analyze during data collection, stop when significant result is obtained or continue until significant result is obtained&lt;/td&gt;
+&lt;td&gt;Inflates false positive rate&lt;/td&gt;
+&lt;td&gt;Define data stopping rule in advance&lt;/td&gt;
+&lt;td&gt;Non-significant effects are a threat to publishability&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Include multiple conditions or outcome variables, report the subset that showed significant effects&lt;/td&gt;
+&lt;td&gt;Inflates false positive rate&lt;/td&gt;
+&lt;td&gt;Report all conditions and outcome variables&lt;/td&gt;
+&lt;td&gt;Non-significant and mixed effects are a threat to publishability&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Try multiple analysis strategies, data exclusions, data transformations, report cleanest subset&lt;/td&gt;
+&lt;td&gt;Inflates false positive rate&lt;/td&gt;
+&lt;td&gt;Prespecify data analysis plan, or report all analysis strategies&lt;/td&gt;
+&lt;td&gt;Non-significant and mixed effects are a threat to publishability&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Report discoveries as if they had resulted from confirmatory tests&lt;/td&gt;
+&lt;td&gt;Inflates false positive rate&lt;/td&gt;
+&lt;td&gt;Pre-specify hypotheses; Report exploratory and confirmatory analyses separately&lt;/td&gt;
+&lt;td&gt;Many findings are discoveries, but stories are nicer and scientists seem smarter if they had thought it in advance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Never do a direct replication&lt;/td&gt;
+&lt;td&gt;Inflates false positive rate&lt;/td&gt;
+&lt;td&gt;Conduct direct replications of important effects&lt;/td&gt;
+&lt;td&gt;Incentives are focused on innovation, replications are boring; Original authors might feel embarrassed if their original finding is irreproducible&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For reviews of these practices and their effects see Ioannidis,
+2005; Giner-Sorolla, 2012; Greenwald, 1975; &lt;a href="http://dx.doi.org/10.1177/0956797611430953"&gt;John et al.,
+2012&lt;/a&gt;; &lt;a href="http://dx.doi.org/10.1177/1745691612459058"&gt;Nosek et
+al., 2012&lt;/a&gt;; &lt;a href="http://dx.doi.org/10.1037/0033-2909.86.3.638"&gt;Rosenthal,
+1979&lt;/a&gt;; Simmons et al., 2011; Young et al., 2008      &lt;/p&gt;
+&lt;h2&gt;The Context&lt;/h2&gt;
+&lt;p&gt;In an ideal world, scientists use the best available practices to
+produce accurate, reproducible science. But, scientists don’t live in an
+ideal world. Alex is creating a career for himself. To succeed, he must
+publish. Papers are academic currency. They are Alex’s ticket to job
+security, fame, and fortune. Well, okay, maybe just job security. But,
+not everything is published, and some publications are valued more than
+others. Alex can maximize his publishing success by producing particular
+kinds of results. Positive effects, not negative effects (&lt;a href="http://dx.doi.org/10.1371/journal.pone.0010068"&gt;Fanelli,
+2010&lt;/a&gt;;
+Sterling, 1959). Novel effects, not verifications of prior effects (&lt;a href="http://dx.doi.org/10.1177/1745691612462588"&gt;Open
+Science Collaboration, 2012&lt;/a&gt;). Aesthetically appealing, clean results,
+not results with ambiguities or inconsistencies (Giner-Sorolla, 2012).
+Just look in the pages of &lt;em&gt;Nature&lt;/em&gt;, or any other leading journal, they
+are filled with articles producing positive, novel, beautiful results.
+They are wonderful, exciting, and groundbreaking. Who wouldn’t want
+that?&lt;/p&gt;
+&lt;p&gt;We do want that, and science advances in leaps with groundbreaking
+results. The hard reality is that few results are actually
+groundbreaking. And, even for important research, the results are often
+far from beautiful. There are confusing contradictions, apparent
+exceptions, and things that just don’t make sense. To those in the
+laboratory, this is no surprise. Being at the frontiers of knowledge is
+hard. We don’t quite know what we are looking at. That’s why we are
+studying it. Or, as Einstein said, “If we knew what we were doing, it
+wouldn’t be called research”.
+ 
+But, those outside the laboratory get a different impression. When the
+research becomes a published article, much of the muck goes away. The
+published articles are like the pictures of this commentary’s authors at
+the top of this page. Those pictures are about as good as we can look.
+You should see the discards. Those with insider access know, for
+example, that we each own three shirts with buttons and have highly
+variable shaving habits. Published articles present the best-dressed,
+clean-shaven versions of the actual work.&lt;/p&gt;
+&lt;p&gt;Just as with people, when you replicate effects yourself to see them in
+person, they may not be as beautiful as they appeared in print. The
+published version often looks much better than reality. The effect is
+hard to get, dependent on a multitude of unmentioned limiting
+conditions, or entirely irreproducible (Begley &amp;amp; Ellis, 2012; Prinz et
+al., 2011).&lt;/p&gt;
+&lt;h2&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;It is not surprising that effects are presented in their best light.
+Career advancement depends on publishing success. More beautiful looking
+results are easier to publish and more likely to earn rewards
+(Giner-Sorolla, 2012). Individual incentives align for maximizing
+publishability, even at the expense of accuracy (&lt;a href="http://dx.doi.org/10.1177/1745691612459058"&gt;Nosek et al.,
+2012&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Consider three hypothetical papers shown in Table 2. For all three, the
+researchers identified an important problem and had an idea for a novel
+solution. &lt;em&gt;Paper A&lt;/em&gt; is a natural beauty. Two well planned studies showed
+effects supporting the idea. &lt;em&gt;Paper B&lt;/em&gt; and &lt;em&gt;Paper C&lt;/em&gt; were conducted with
+identical study designs. &lt;em&gt;Paper B&lt;/em&gt; is natural, but not beautiful; &lt;em&gt;Paper
+C&lt;/em&gt; is a manufactured beauty. Both &lt;em&gt;Paper B&lt;/em&gt; and &lt;em&gt;Paper C&lt;/em&gt; were based on 3
+studies. One study for each showed clear support for the idea. A second
+study was a mixed success for &lt;em&gt;Paper B&lt;/em&gt;, but “worked” for &lt;em&gt;Paper C&lt;/em&gt; after
+increasing the sample size a bit and analyzing the data a few different
+ways. A third study did not work for either. &lt;em&gt;Paper B&lt;/em&gt; reported the
+failure with an explanation for why the methodology might be to blame,
+rather than the idea being incorrect. The authors of &lt;em&gt;Paper C&lt;/em&gt; generated
+the same methodological explanation, categorized the study as a pilot,
+and did not report it at all. Also, &lt;em&gt;Paper C&lt;/em&gt; described the final sample
+sizes and analysis strategies, but did not mention that extra data was
+collected after initial analysis, or that alternative analysis
+strategies had been tried and dismissed.&lt;/p&gt;
+&lt;h2&gt;Table 2&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Summary of research practices for three hypothetical papers&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Step&lt;/th&gt;
+&lt;th&gt;Paper&lt;/th&gt;
+&lt;th&gt;Paper B&lt;/th&gt;
+&lt;th&gt;Paper C&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data collection&lt;/td&gt;
+&lt;td&gt;Conducted two studies&lt;/td&gt;
+&lt;td&gt;Conducted three studies&lt;/td&gt;
+&lt;td&gt;Conducted three studies&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data analysis&lt;/td&gt;
+&lt;td&gt;Analyzed data after completing data collection following a pre-specified analysis plan&lt;/td&gt;
+&lt;td&gt;Analyzed data after completing data collection following a pre-specified analysis plan&lt;/td&gt;
+&lt;td&gt;Analyzed during data collection and collected more data to get to significance in one case.  Selected from multiple analysis strategies for all studies.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Result reporting&lt;/td&gt;
+&lt;td&gt;Reported the results of the planned analyses for both studies&lt;/td&gt;
+&lt;td&gt;Reported the results of the planned analyses for all studies&lt;/td&gt;
+&lt;td&gt;Reported results of final analyses only.  Did not report one study that did not reach significance.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Final paper&lt;/td&gt;
+&lt;td&gt;Two studies demonstrating clear support for idea&lt;/td&gt;
+&lt;td&gt;One study demonstrating clear support for idea, one mixed, one not at all&lt;/td&gt;
+&lt;td&gt;Two studies demonstrating clear support for idea&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Paper A&lt;/em&gt; is clearly better than &lt;em&gt;Paper B&lt;/em&gt;. &lt;em&gt;Paper A&lt;/em&gt; should be
+published in a more prestigious outlet and generate more attention and
+accolade. &lt;em&gt;Paper C&lt;/em&gt; &lt;strong&gt;looks&lt;/strong&gt; like &lt;em&gt;Paper A&lt;/em&gt;, but in reality it &lt;strong&gt;is&lt;/strong&gt;
+like &lt;em&gt;Paper B&lt;/em&gt;. The actual evidence is more circumspect than the
+apparent evidence. Based on the report, however, no one can tell the
+difference between &lt;em&gt;Paper A&lt;/em&gt; and &lt;em&gt;Paper C&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Two possibilities would minimize the negative impact of publishing
+manufactured beauties like &lt;em&gt;Paper C&lt;/em&gt;. First, if replication were
+standard practice, then manufactured effects would be identified
+rapidly. However, direct replication is very uncommon (&lt;a href="http://dx.doi.org/10.1177/1745691612462588"&gt;Open Science
+Collaboration, 2012&lt;/a&gt;). Once an effect is the literature, there is little
+systematic ethic to self-correct. Rather than be weeded out, false
+effects persist or just slowly fade away. Second, scientists could just
+avoid doing the practices that lead to &lt;em&gt;Paper C&lt;/em&gt; making this
+illustration an irrelevant hypothetical. Unfortunately, a growing body
+of evidence suggests that these practices occur, and some are even
+common (e.g., &lt;a href="http://dx.doi.org/10.1177/0956797611430953"&gt;John et al., 2012&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;To avoid the practices that produce &lt;em&gt;Paper C&lt;/em&gt;, the scientist must be
+aware of and confront a conflict-of-interest—what is best for science
+versus what is best for me. Scientists have inordinate opportunity to
+pursue flexible decision-making in design and analysis, and there is
+minimal accountability for those practices. Further, humans’ prodigious
+motivated reasoning capacities provide a way to decide that the outcomes
+that look best for us also has the most compelling rationale (&lt;a href="http://dx.doi.org/10.1037/0033-2909.108.3.480"&gt;Kunda,
+1990&lt;/a&gt;). So, we may convince ourselves that the best course of action for
+us was the best course of action period. It is very difficult to stop
+doing suspect practices when we have thoroughly convinced ourselves that
+we are not doing them.&lt;/p&gt;
+&lt;h2&gt;The Solution&lt;/h2&gt;
+&lt;p&gt;Alex needs to publish to succeed. The practices in Table 1 are to the
+scientist, what steroids are to the athlete. They amplify the likelihood
+of success in a competitive marketplace. If others are using, and Alex
+decides to rely on his natural performance, then he will disadvantage
+his career prospects. Alex wants to do the best science he can &lt;em&gt;and&lt;/em&gt; be
+successful for doing it. In short, he is the same as every other
+scientist we know, ourselves included. Alex shouldn’t have to make a
+choice between doing the best science and being successful—these should
+be the same thing.&lt;/p&gt;
+&lt;p&gt;Is Alex stuck? Must he wait for institutional regulation, audits, and
+the science police to fix the system? In a regulatory world, practices
+are enforced and he need not worry that he’s committing career suicide
+by following them. Many scientists are wary of a strong regulatory
+environment in science, particularly for the possibility of stifling
+innovation. Some of the best ideas start with barely any evidence at
+all, and restrictive regulations on confidence in outputs could
+discourage taking risks on new ideas. Nonetheless, funders, governments,
+and other stakeholders are taking notice of the problematic incentive
+structures in science. If we don’t solve the problem ourselves,
+regulators may solve them for us.&lt;/p&gt;
+&lt;p&gt;Luckily, Alex has an alternative. The practices in Table 1 may be
+widespread, but the solutions are also well known and endorsed as good
+practice (&lt;a href="http://dx.doi.org/10.1177/1745691612459521"&gt;Fuchs et al., 2012&lt;/a&gt;). That is, scientists easily understand the
+differences between Papers A, B, and C – if they have full access to how
+the findings were produced. As a consequence, the only way to be
+rewarded for natural achievements over manufactured ones is to make the
+process of obtaining the results transparent. Using the best available
+practices privately will improve science but hurt careers. Using the
+best available practices publicly will improve science while
+simultaneously improving the reputation of the scientist. With openness,
+success can be influenced by the results &lt;em&gt;and&lt;/em&gt; by how they were
+obtained.
+ &lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The present incentives for publishing are focused on the one thing that
+we scientists are absolutely, positively not supposed to control - the
+results of the investigation. Scientists have complete control over the
+design, procedures, and execution of the study. The results are what
+they are.&lt;/p&gt;
+&lt;p&gt;A better science will emerge when the incentives for achievement align
+with the things that scientists can (and should) control with their
+wits, effort, and creativity. With results, beauty is contingent on what
+is known about their origin. Obfuscation of methodology can make ugly
+results appear beautiful. With methodology, if it looks beautiful, it is
+beautiful. The beauty of methodology is &lt;em&gt;revealed&lt;/em&gt; by openness.&lt;/p&gt;
+&lt;p&gt;Most scientific results have warts. Evidence is halting, uncertain,
+incomplete, confusing, and messy. It is that way because scientists are
+working on hard problems. Exposing it will accelerate finding solutions
+to clean it up. Instead of trying to make results look beautiful when
+they are not, the inner beauty of science can be made apparent. Whatever
+the results, the inner beauty—strong design, brilliant reasoning,
+careful analysis—is what counts. With openness, we won’t stop aiming for
+A papers. But, when we get them, it will be clear that we earned them.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;Begley, C. G., &amp;amp; Ellis, L. M. (2012). Raise standards for preclinical
+cancer research. &lt;em&gt;Nature, 483&lt;/em&gt;, 531-533.&lt;/p&gt;
+&lt;p&gt;Cohen , J. (1962). The statistical power of abnormal-social
+psychological research: A review. &lt;em&gt;Journal of Abnormal and Social
+Psychology, 65&lt;/em&gt;, 145-153.&lt;/p&gt;
+&lt;p&gt;Fanelli, D. (2010). "Positive" results increase down the hierarchy of
+the sciences. &lt;em&gt;PLoS ONE, 5(4)&lt;/em&gt;, e10068.
+&lt;a href="http://dx.doi.org/10.1371/journal.pone.0010068"&gt;doi:10.1371/journal.pone.0010068&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fuchs H., Jenny, M., &amp;amp; Fiedler, S. (2012). Psychologists are open to
+change, yet wary of rules. &lt;em&gt;Perspectives on Psychological Science, 7,&lt;/em&gt;
+634-637. &lt;a href="http://dx.doi.org/10.1177/1745691612459521"&gt;doi:10.1177/1745691612459521&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sedlmeier, P., &amp;amp; Gigerenzer, G. (1989). Do studies of statistical power
+have an effect on the power of studies? &lt;em&gt;Psychological Bulletin, 105&lt;/em&gt;,
+309-316.&lt;/p&gt;
+&lt;p&gt;Giner-Sorolla, R. (2012). Science or art? How esthetic standards grease
+the way through the publication bottleneck but undermine science.
+&lt;em&gt;Perspectives on Psychological Science&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Greenwald, A. G. (1975). Consequences of prejudice against the null
+hypothesis. &lt;em&gt;Psychological Bulletin, 82&lt;/em&gt;, 1-20.&lt;/p&gt;
+&lt;p&gt;Ioannidis, J. P. A. (2005). Why most published research findings are
+false. &lt;em&gt;PLoS Medicine, 2&lt;/em&gt;, e124.&lt;/p&gt;
+&lt;p&gt;John, L., Loewenstein, G., &amp;amp; Prelec, D. (2012). Measuring the prevalence
+of questionable research practices with incentives for truth-telling&lt;em&gt;.
+Psychological Science&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;, 524-532.
+&lt;a href="http://dx.doi.org/10.1177/0956797611430953"&gt;doi:10.1177/0956797611430953&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kunda, Z. (1990). The case for motivated reasoning. &lt;em&gt;Psychological
+Bulletin, 108,&lt;/em&gt; 480-498. &lt;a href="http://dx.doi.org/10.1037/0033-2909.108.3.480"&gt;doi:10.1037/0033-2909.108.3.480&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nosek, B. A., Spies, J. R., &amp;amp; Motyl, M. (2012). Scientific utopia: II.
+Restructuring incentives and practices to promote truth over
+publishability. &lt;em&gt;Perspectives on Psychological Science, 7,&lt;/em&gt;615-631.
+&lt;a href="http://dx.doi.org/10.1177/1745691612459058"&gt;doi:10.1177/1745691612459058&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Open Science Collaboration. (2012). An open, large-scale, collaborative
+effort to estimate the reproducibility of psychological science.
+&lt;em&gt;Perspectives on Psychological Science, 7,&lt;/em&gt; 657-660.
+ &lt;a href="http://dx.doi.org/10.1177/1745691612462588"&gt;doi:10.1177/1745691612462588&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prinz, F., Schlange, T. &amp;amp; Asadullah, K. (2011). Believe it or not: how
+much can we rely on published data on potential drug targets? &lt;em&gt;Nature
+Reviews Drug Discovery, 10&lt;/em&gt;, 712-713.&lt;/p&gt;
+&lt;p&gt;Rosenthal, R. (1979). The file drawer problem and tolerance for null
+results. &lt;em&gt;Psychological Bulletin, 86,&lt;/em&gt; 638-641.
+&lt;a href="http://dx.doi.org/10.1037/0033-2909.86.3.638"&gt;doi:10.1037/0033-2909.86.3.638&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Simmons, J. P., Nelson, L. D., &amp;amp; Simonsohn, U. (2011). False-positive
+psychology: Undisclosed flexibility in data collection and analysis
+allows presenting anything as significant. &lt;em&gt;Psychological Science, 22&lt;/em&gt;,
+1359-1366.&lt;/p&gt;
+&lt;p&gt;Sterling, T. D. (1959). Publication decisions and their possible effects
+on inferences drawn from tests of significance - or vice versa. &lt;em&gt;Journal
+of the American Statistical Association, 54&lt;/em&gt;, 30-34.&lt;/p&gt;
+&lt;p&gt;Young, N. S., Ioannidis, J. P. A., &amp;amp; Al-Ubaydli, O. (2008). Why current
+publication practices may distort science. &lt;em&gt;PLoS Medicine, 5&lt;/em&gt;,
+1418-1422.&lt;/p&gt;</summary></entry></feed>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Science Collaboration Blog</title><link href="http://osc.centerforopenscience.org/" rel="alternate"></link><link href="http://osc.centerforopenscience.org/feeds/ase-innes-ker.atom.xml" rel="self"></link><id>http://osc.centerforopenscience.org/</id><updated>2013-10-04T14:45:00-04:00</updated><entry><title>A publishing sting, but what was stung?</title><link href="http://osc.centerforopenscience.org/2013/10/04/a-publishing-sting-but-what-was-stung/" rel="alternate"></link><updated>2013-10-04T14:45:00-04:00</updated><author><name>Åse Innes-Ker</name></author><id>tag:osc.centerforopenscience.org,2013-10-04:2013/10/04/a-publishing-sting-but-what-was-stung/</id><summary type="html">&lt;p&gt;Before Open Science there was Open Access (OA) — a movement driven by the
+desire to make published research publicly accessible (after all, the public
+usually had paid for it), rather than hidden behind paywalls.&lt;/p&gt;
+&lt;p&gt;Open Access is, by now, its very own strong movement — follow for example &lt;a href="http://bjoern.brembs.net/"&gt;Björn
+Brembs&lt;/a&gt; if you want to know what is happening there — and 
+there are now nice Open Access journals, like &lt;a href="http://www.plos.org/"&gt;PLOS&lt;/a&gt; and
+&lt;a href="http://www.frontiersin.org/"&gt;Frontiers&lt;/a&gt;, which are
+peer-reviewed and reputable. Some of these journals charge an article
+processing fee for OA articles, but in many cases funders have introduced or
+are developing provisions to cover these costs. (In fact, the big private
+funder in Sweden INSISTS on it.)&lt;/p&gt;
+&lt;p&gt;But, as always, situations where there is money involved and targets who are
+desperate (please please please publish my baby so I won’t perish) breed mimics
+and cuckoos and charlatans, ready to game the new playing field to their
+advantage.  This is probably just a feature of the human condition (see
+Triver’s “&lt;a href="http://www.amazon.com/The-Folly-Fools-Deceit-Self-Deception/dp/B008PGKA56"&gt;Folly of Fools&lt;/a&gt;”).&lt;/p&gt;
+&lt;p&gt;There are lists of potentially predatory Open Access journals — I have linked
+some in on my private blog (Åse Fixes Science)
+&lt;a href="http://asefixesscience.wordpress.com/2013/04/14/open-access-watch-out-list/"&gt;here&lt;/a&gt;
+and
+&lt;a href="http://asefixesscience.wordpress.com/2013/05/12/more-on-predatory-open-access/"&gt;here&lt;/a&gt;.
+Reputation counts.  Buyers beware!&lt;/p&gt;
+&lt;p&gt;Demonstrating the challenges of this new marketplace, John Bohannon published
+in Science (a decidedly not Open Access journal) a sting operation in which he
+spoofed Open Access journals to test their peer-review system. The papers were
+machine generated nonsense — one may recall the &lt;a href="http://en.wikipedia.org/wiki/Sokal_affair"&gt;Sokal Hoax&lt;/a&gt; from the previous
+Science Wars.  One may also recall the classic Ceci paper from 1982, which made
+the rounds again earlier this year (and I blogged about that one too - &lt;a href="http://asehelene.wordpress.com/2013/05/31/music-social-proof-appeal-and-peer-review/"&gt;on my
+other blog&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Crucially, all of Bohannon’s papers contained fatal flaws that a decent
+peer-reviewer should catch. The big news? Lots of them did not (though PLOS
+did). Here’s the &lt;a href="http://www.sciencemag.org/content/342/6154/60"&gt;Science&lt;/a&gt; article with
+its &lt;a href="http://comments.sciencemag.org/content/10.1126/science.342.6154.60"&gt;commentary stream&lt;/a&gt;,
+and a commentary from &lt;a href="http://retractionwatch.wordpress.com/2013/10/03/science-reporter-spoofs-hundreds-of-journals-with-a-fake-paper/"&gt;Retraction Watch&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;This is, of course, interesting — and it is generating buzz.  But, it is also
+generating some negative reaction. For one, Bohannon did not include the
+regular non-OA journals in his test, so the experiment lacks a control group,
+which means we can make no comparison and draw no firm inferences from the
+data. The reason he states (it is quoted on the Retraction Watch site) is the
+very long turnaround times for regular journals, which can be months, even a
+year (or longer, as I’ve heard). I kinda buy it, but this is really what is
+angering the Open Access crowd, who sees this letter as an attempt to
+implicate Open Access itself as the source of the problem. And, apart from
+Bohannon not including regular journals in his test, Science published what he
+wrote without peer reviewing it.&lt;/p&gt;
+&lt;p&gt;My initial take? I think it is important to test these things — to uncover the
+flaws in the system, and also to uncover the cuckoos and the mimics and the
+gamers. Of course, the problems in peer review are not solely on the shoulders
+of Open Access — Diederik Stapel, and other frauds, published almost
+exclusively in paywalled journals (including Science).  The status of peer
+review warrants its own scrutiny.&lt;/p&gt;
+&lt;p&gt;But, I think the Open Access advocates have a really important point to
+make.  As noted on Retraction Watch, Bohannon's study didn't include
+non-OA journals, so it's unclear whether the peer-review problems he
+identified in OA journals are unique to their OA status.&lt;/p&gt;
+&lt;p&gt;I’ll end by linking in some of the commentary that I have seen so far — and, of
+course, we’re happy to hear your comments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Guardian: &lt;a href="http://www.theguardian.com/higher-education-network/2013/oct/04/open-access-journals-fake-paper"&gt;Hundreds of Open Access journals accept fake science paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Peter Suber: &lt;a href="https://plus.google.com/109377556796183035206/posts/CRHeCAtQqGq"&gt;New “Sting” of Weak Open-Access Journals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Curt Rice: &lt;a href="http://curt-rice.com/2013/10/04/what-science-and-the-gonzo-scientist-got-wrong-open-access-will-make-research-better/"&gt;What Science — and the Gonzo Scientist — got wrong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The conversation: &lt;a href="http://theconversation.com/flawed-sting-operation-singles-out-open-access-journals-18846"&gt;Flawed sting operation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The comics Grid: &lt;a href="http://blog.comicsgrid.com/2013/10/whos-afraid-open-access/"&gt;Who's afraid of Open Access&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Michael Eisen: &lt;a href="http://www.michaeleisen.org/blog/?p=1439"&gt;I confess, I wrote the Arsenic DNA paper to expose flaws in peer-review at subscription based journals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/search?had_popular=true&amp;amp;q=JournalSting"&gt;#JournalSting&lt;/a&gt; and &lt;a href="https://twitter.com/search?q=%23openaccess&amp;amp;src=hash"&gt;#openaccess&lt;/a&gt; on Twitter&lt;/li&gt;
+&lt;li&gt;Sauropod Vertebra Picture of the week: &lt;a href="http://svpow.com/2013/10/03/john-bohannons-peer-review-sting-against-science/"&gt;John Bohannon’s peer-review sting against Science&lt;/a&gt;. (The last one is also collecting other links commenting on this paper - good resource).&lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
