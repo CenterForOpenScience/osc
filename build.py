@@ -1,65 +1,13 @@
-from pelican import Pelican
-import pelican.settings
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+DISQUS_SITENAME = 'opensciencecollaboration'
+SUMMARY_MAX_LENGTH = 10000
+PATH = 'site/content'
+OUTPUT_PATH =  'output/'
+THEME = 'pelican-mockingbird/'
+SITEURL = 'http://osc.centerforopenscience.org'
+STATIC_PATHS = ['images', 'static']
+PLUGIN_PATH = 'plugins'
+PLUGINS = ["share-post","summary"]
+DEFAULT_PAGINATION = 10
 
-
-import os
-
-settings = pelican.settings.DEFAULT_CONFIG
-
-for i in ['PATH', 'OUTPUT_PATH', 'THEME', 'SITEURL']:
-    del settings[i]
-
-settings.update({
-    u'THEME_STATIC_DIR':'theme',
-    u'AUTHOR': '',
-    u'SITENAME': 'Open Science Collaboration Blog',
-    u'TIMEZONE': 'America/New_York',
-    u'LINKS': (
-    ),
-    u'SOCIAL' : (
-    ),
-})
-
-
-def generate(settings,
-    input_path=None,
-    output_path=None,
-    theme_path=None,
-    siteurl=None,
-    static_paths=None,
-    plugin_path=None,
-    plugins=None
-):
-    settings['ARTICLE_URL'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-    settings['ARTICLE_SAVE_AS'] = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-    settings['DISQUS_SITENAME'] = 'opensciencecollaboration'
-    settings['SUMMARY_MAX_LENGTH'] = 10000
-    settings['PATH'] = input_path
-    settings['OUTPUT_PATH'] =  output_path
-    settings['THEME'] = theme_path
-    settings['SITEURL'] = siteurl
-    settings['STATIC_PATHS'] = static_paths
-    settings["PLUGIN_PATH"] = plugin_path
-    settings["PLUGINS"] = plugins
-    settings["DEFAULT_PAGINATION"] = 10
-
-    if settings['SITEURL'].endswith('/'):
-        settings['SITEURL'] = settings['SITEURL'][:-1]
-
-    if not os.path.exists(settings['OUTPUT_PATH']):
-        os.mkdir(settings['OUTPUT_PATH'])
-
-    settings = pelican.settings.configure_settings(settings)
-    Pelican(settings).run()
-
-if __name__ == '__main__':
-    generate(
-        settings,
-        input_path='site/content',
-        output_path='output/',
-        theme_path='pelican-mockingbird/',
-        siteurl='http://osc.centerforopenscience.org',
-        static_paths=['images', 'static'],
-        plugin_path='plugins',
-        plugins=["share-post","summary"]
-    )
