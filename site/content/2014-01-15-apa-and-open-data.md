@@ -3,7 +3,7 @@ Author: Denny Borsboom
 Date: 2014-1-15 11:20
 Slug: apa-and-open-data
 
-<img src="/images/DennyPortrait-cropped.png" alt="Photo of Denny
+<img src="images/DennyPortrait-cropped.png" alt="Photo of Denny
 Boorsboom" align="left" style="padding-right: 20px;" width="200px" />
 
 I was pleasantly surprised when, last year, I was approached with the request to become Consulting Editor for a new APA journal called _Archives of Scientific Psychology_. The journal, as advertised on its website upon launch, had a distinct Open Science signature. As its motto said, it was an “Open Methodology, Open Data, Open Access journal”.  That’s a lot of openness indeed.
