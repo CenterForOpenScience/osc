@@ -29,6 +29,7 @@
 
                 <li {%- if output_file == "index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
                 {% if DISPLAY_PAGES_ON_MENU -%}
+                <div>HI</div>
                 {% for page in PAGES -%}
                 <li {%- if output_file == page.url %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor -%}
