@@ -9,6 +9,7 @@ PAGE_SAVE_AS = 'pages/{slug}.html'
 PAGE_URL = '/site/content/pages/{slug}.html'
 PLUGINS = ["share-post","summary"]
 PLUGIN_PATH = 'plugins'
+SITENAME = 'Open Science Collaboration Blog'
 SITEURL = 'http://centerforopenscience.github.io/osc'
 STATIC_PATHS = ['images', 'static']
 SUMMARY_MAX_LENGTH = 10000
