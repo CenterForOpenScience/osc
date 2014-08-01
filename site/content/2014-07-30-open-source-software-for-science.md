@@ -2,7 +2,6 @@ Title: Open-source software for science
 Author: Sebastiaan Mathôt
 Date: 2014-07-30 12:00
 Slug: open-source-software-for-science
-Status: draft
 
 A little more than three years ago I started working on [OpenSesame], a free program for the easy development of experiments, mostly oriented at psychologists and neuroscientists. The first version of OpenSesame was the result of a weekend-long hacking sprint. By now, OpenSesame has grown into a substantial project, with a small team of core developers, tens of occasional contributors, and about 2500 active users.
 
