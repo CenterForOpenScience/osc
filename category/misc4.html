@@ -2,39 +2,70 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <title>Open Science Collaboration Blog &middot; articles in the "misc" category</title>
-<!--        <link rel="shortcut icon" href="http://osc.centerforopenscience.org/favicon.ico" /> -->
+        <title>A Pelican Blog &middot; articles in the "misc" category</title>
+<!--        <link rel="shortcut icon" href="http://centerforopenscience.github.io/osc/favicon.ico" /> -->
 		<link rel="shortcut icon" href="http://mcohn.net/rp/favicon.ico" />
-<link href="http://osc.centerforopenscience.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Open Science Collaboration Blog Atom Feed" />
+<link href="http://centerforopenscience.github.io/osc/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
 
-        <link rel="stylesheet" href="http://osc.centerforopenscience.org/theme/css/screen.css" type="text/css" />
-        <link rel="stylesheet" href="http://osc.centerforopenscience.org/theme/css/pygments.css" type="text/css" />
+        <link rel="stylesheet" href="http://centerforopenscience.github.io/osc/theme/css/screen.css" type="text/css" />
+        <link rel="stylesheet" href="http://centerforopenscience.github.io/osc/theme/css/pygments.css" type="text/css" />
 
 
     </head>
     <body>
 <div id="header">
             <ul id="nav">
-                <li class="ephemeral selected"><a href="http://osc.centerforopenscience.org/category/misc.html">misc</a></li>
-                <li><a href="http://osc.centerforopenscience.org">Home</a></li>
-<li><a href="http://osc.centerforopenscience.org/pages/about.html">About</a></li>
-<li><a href="http://osc.centerforopenscience.org/pages/authors.html">Authors</a></li>
-<li><a href="http://osc.centerforopenscience.org/pages/policy.html">Policy</a></li>
-<li><a href="http://osc.centerforopenscience.org/archives.html">Archives</a></li>
+                <li class="ephemeral selected"><a href="http://centerforopenscience.github.io/osc/category/misc.html">misc</a></li>
+                <li><a href="http://centerforopenscience.github.io/osc">Home</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/pages/about.html">About</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/pages/authors.html">Authors</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/pages/policy.html">Policy</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
-                <h1><a href="http://osc.centerforopenscience.org"><img src="http://osc.centerforopenscience.org/images/osc-redblack.png" width="160px" style="margin-top:-60px;" /></a></h1>
+                <h1><a href="http://centerforopenscience.github.io/osc"><img src="http://centerforopenscience.github.io/osc/images/osc-redblack.png" width="160px" style="margin-top:-60px;" /></a></h1>
             </div>
         </div>
         <div id="wrapper">
             <div id="content">
+                <h4 class="date">Dec 18,  2013</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="http://centerforopenscience.github.io/osc/2013/12/18/researcher-degrees-of-freedom/" rel="bookmark" title="Permanent Link to &quot;Researcher Degrees of Freedom in Data Analysis&quot;">Researcher Degrees of Freedom in Data Analysis</a>
+                    </h2>
+
+                    by <a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
+
+   			   <p>The enormous amount of options available for modern data analysis is both a blessing and a curse. On one hand, researchers have specialized tools for any number of complex questions. On the other hand, we’re also faced with a staggering number of equally-viable choices, many times without any clear-cut guidelines for deciding between them. For instance, I just popped open SPSS statistical software and counted 18 different ways to conduct post-hoc tests for a one-way ANOVA. Some choices are clearly inferior (e.g., the <a href="http://www.graphpad.com/guides/prism/6/statistics/index.htm?stat_fishers_lsd.htm">LSD test</a> doesn’t adjust p-values for multiple comparisons) but it’s possible to defend the use of many of the available options. These ambiguous choice points are sometimes referred to as researcher degrees of freedom.</p>
+<p>In theory, researcher degrees of freedom shouldn’t be a problem. More choice is better, right? The problem arises from two interconnected issues: (a) Ambiguity as to which statistical test is most appropriate and (b) an incentive system where scientists are rewarded with publications, grants, and career stability when their p-values fall below the revered p &lt; .05 criterion. So, perhaps unsurprisingly, when faced with a host of ambiguous options for data analysis, most people settle on the one that achieves statistically significant results. Simmons, Nelson, and Simonsohn (2011) argue that this undisclosed flexibility in data analysis allows people to present almost any data as “significant,” and calls for 10 simple guidelines for reviewers and authors to disclose in every paper – which, if you haven’t read yet <a href="http://pss.sagepub.com/content/22/11/1359.full.pdf+html">are worth checking out</a>. In this post, I will discuss a few guidelines of my own for conducting data analysis in a way that strives to overcome our inherent tendency to be self-serving.</p>
+<ol>
+<li>
+<p>Make as many data analytic decisions as possible before looking at your data. Review the statistical literature and decide on which statistical test(s) will be best before looking at your collected data. Continue to use those tests until enough evidence emerges to change your mind. The important thing is that you make these decisions before looking at your data. Once you start playing with the actual data, your self-serving biases will start to kick in. Do not underestimate your ability for self-deception: Self-serving biases are powerful, pervasive, and apply to virtually everyone. Consider pre-registering your data analysis plan (perhaps using the <a href="https://openscienceframework.org/">Open Science Framework</a> to keep yourself honest and to convince future reviewers that you aren’t exploiting researcher degrees of freedom.</p>
+</li>
+<li>
+<p>When faced with a situation where there are too many equally viable choices, run a small number of the best choices, and report all of them. In this case, decide on 2-5 different tests ahead of time. Report the results of all choices, and make a tentative conclusion based if the majority of these tests agree. For instance, when determining model fit in structural equation modeling, there <a href="http://davidakenny.net/cm/fit.htm">many different methods you might use</a>. If you can’t figure out which method is best by reviewing the statistical literature – it’s not entirely clear, statisticians disagree about as often as any other group of scientists – then report the results of all tests, and make a conclusion if they all converge on the same solution. When they disagree, make a tentative conclusion based on the majority of tests that agree (e.g., 2 of 3 tests come to the same conclusion). For the record, I currently use CFI, TLI, RMSEA, and SRMR in my own work, and use these even if other fit indices provide more favorable results.</p>
+</li>
+<li>
+<p>When deciding on a data analysis plan after you’ve seen the data, keep in mind that most researcher degrees of freedom have minimal impact on strong results. For any number of reasons, you might find yourself deciding on a data analysis plan after you’ve played around with the data for a while. At the end of the day, strong data will not be influenced much by researcher degrees of freedom. For instance, results should look much the same regardless of whether you exclude outliers, transform them, or leave them in the data when you have a study with high statistical power. Simmons et al. (2011) specifically recommend that results should be presented (a) with and without covariates, and (b) with and without specific data points excluded, if any were removed. Again, the general idea is that strong results will not change much when you alter researcher degrees of freedom. Thus, I again recommend analyzing the data in a few different ways and looking for convergence across all methods when you’re developing a data analysis plan after seeing the data. This sets the bar higher to try and combat your natural tendency to report just the one analysis that “works.” When minor data analytic choices drastically change the conclusions, this should be a warning sign that your solution is unstable and the results are probably not trustworthy.  The number one reason why you have an unstable solution is probably because you have <a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/">low statistical power</a>. Since you hopefully had a strict data collection end date, the only viable alternative when results are unstable is to replicate the results in a second, more highly-powered study using the same data analytic approach.</p>
+</li>
+</ol>
+<p>At the end of the day, there is no “quick-fix” for the problem of self-serving biases during data analysis so long as the incentive system continues to reward novel, statistically significant results. However, by using the tips in this article (and elsewhere) researchers can focus on finding strong, replicable results by minimizing the natural human tendency to be self-serving.</p>
+<p><strong>References</strong></p>
+<p>Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2011). <a href="http://pss.sagepub.com/content/22/11/1359.full.pdf+html">False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant.</a> Psychological Science, 22, 1359-1366. doi:10.1177/0956797611417632</p>
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="http://centerforopenscience.github.io/osc/2013/12/18/researcher-degrees-of-freedom/#disqus_thread" data-disqus-identifier="2013/12/18/researcher-degrees-of-freedom/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/12/18/researcher-degrees-of-freedom/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
                 <h4 class="date">Dec 13,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/" rel="bookmark" title="Permanent Link to &quot;Chasing Paper, Part 3&quot;">Chasing Paper, Part 3</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/12/13/chasing-paper-3/" rel="bookmark" title="Permanent Link to &quot;Chasing Paper, Part 3&quot;">Chasing Paper, Part 3</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
 
    			   <p><em>This is part three of a three part post brainstorming potential improvements to the journal article format.  Part one is <a href="http://osc.centerforopenscience.org/2013/12/11/chasing-paper/">here</a>, part two is <a href="http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/">here</a>.</em></p>
 <h3>The classic journal article is only readable by domain experts.</h3>
@@ -57,9 +88,9 @@
 <p>Simmons, J.P., Nelson, L.D. and Simonsohn, U.A.  (2012)  <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2160588">A 21 Word Solution</a>.  </p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/#disqus_thread" data-disqus-identifier="2013/12/13/chasing-paper-3/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/12/13/chasing-paper-3/#disqus_thread" data-disqus-identifier="2013/12/13/chasing-paper-3/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/12/13/chasing-paper-3/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                         <div class="tags">
-                            <a href="http://osc.centerforopenscience.org/tag/chasing-paper.html">chasing-paper</a>
+                            <a href="http://centerforopenscience.github.io/osc/tag/chasing-paper.html">chasing-paper</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -68,10 +99,10 @@
                 <h4 class="date">Dec 12,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/" rel="bookmark" title="Permanent Link to &quot;Chasing Paper, Part 2&quot;">Chasing Paper, Part 2</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/12/12/chasing-paper-2/" rel="bookmark" title="Permanent Link to &quot;Chasing Paper, Part 2&quot;">Chasing Paper, Part 2</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
 
    			   <p><em>This is part two of a three part post brainstorming potential improvements to the journal article format.  Part one is <a href="http://osc.centerforopenscience.org/2013/12/11/chasing-paper/">here</a>, part three is here <a href="http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/">here</a>.</em></p>
 <h3>The classic journal article format is not easily updated or corrected.</h3>
@@ -90,9 +121,9 @@ How can new technologies address these problems?  There have been few changes ma
 <p>There are two other problems are worth mentioning in brief.  First, the phenomenon of <a href="https://en.wikipedia.org/wiki/Academic_authorship#Ghost_authorship">ghost authorship</a>, where substantial contributions to the running of a study or preparation of a manuscript go unacknowledged.  This is frequently done in industry-sponsored research to hide conflicts of interest.  If journal articles used a format where every contribution was tracked, ghost authorship would be impossible.  Another issue is the assignment of contact authors, the researchers on a paper who readers are invited to direct questions to.  Contact information can become outdated fairly quickly, causing access to data and materials to be lost; if contact information can be changed, or responsibility passed on to a new person, such loss can be prevented.</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/#disqus_thread" data-disqus-identifier="2013/12/12/chasing-paper-2/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/12/12/chasing-paper-2/#disqus_thread" data-disqus-identifier="2013/12/12/chasing-paper-2/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/12/12/chasing-paper-2/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                         <div class="tags">
-                            <a href="http://osc.centerforopenscience.org/tag/chasing-paper.html">chasing-paper</a>
+                            <a href="http://centerforopenscience.github.io/osc/tag/chasing-paper.html">chasing-paper</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -101,10 +132,10 @@ How can new technologies address these problems?  There have been few changes ma
                 <h4 class="date">Dec 11,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/12/11/chasing-paper/" rel="bookmark" title="Permanent Link to &quot;Chasing Paper, Part 1&quot;">Chasing Paper, Part 1</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/12/11/chasing-paper/" rel="bookmark" title="Permanent Link to &quot;Chasing Paper, Part 1&quot;">Chasing Paper, Part 1</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
 
    			   <p><em>This is part one of a three part post.  Parts <a href="http://osc.centerforopenscience.org/2013/12/12/chasing-paper-2/">two</a> and <a href="http://osc.centerforopenscience.org/2013/12/13/chasing-paper-3/">three</a> have now been posted.</em></p>
 <p>The academic paper is old - older than the steam engine, the pocket watch, the piano, and the light bulb.  The first journal, <a href="http://rstl.royalsocietypublishing.org/">Philosophical Transactions</a>, was published on March 6th, 1665.  Now that doesn’t mean that the journal article format is obsolete - many inventions much older are still in wide use today.  But after a third of a millennium, it’s only natural that the format needs some serious updating.</p>
@@ -121,9 +152,9 @@ How can new technologies address these problems?  There have been few changes ma
 <p>What happens when we reconsider not the metadata but the content itself?  Most articles are structurally complex, containing literature reviews, methodological information, data, and analysis.  Perhaps we might be better served by breaking those articles down into their constituent parts.  What if methods, data, analysis were always published separately, creating a network of papers that were linked but discrete?  Would that be easier or harder to organize?  It may be that what we need here is not a better kind of journal article, but a new way of curating research entirely.</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/12/11/chasing-paper/#disqus_thread" data-disqus-identifier="2013/12/11/chasing-paper/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/12/11/chasing-paper/">Posted at 11:30 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/12/11/chasing-paper/#disqus_thread" data-disqus-identifier="2013/12/11/chasing-paper/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/12/11/chasing-paper/">Posted at 11:30 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                         <div class="tags">
-                            <a href="http://osc.centerforopenscience.org/tag/chasing-paper.html">chasing-paper</a>
+                            <a href="http://centerforopenscience.github.io/osc/tag/chasing-paper.html">chasing-paper</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -132,10 +163,10 @@ How can new technologies address these problems?  There have been few changes ma
                 <h4 class="date">Dec  9,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/12/09/reviewer-statement-initiative/" rel="bookmark" title="Permanent Link to &quot;New “Reviewer Statement” Initiative Aims to (Further) Improve Community Norms Toward Disclosure&quot;">New “Reviewer Statement” Initiative Aims to (Further) Improve Community Norms Toward Disclosure</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/12/09/reviewer-statement-initiative/" rel="bookmark" title="Permanent Link to &quot;New “Reviewer Statement” Initiative Aims to (Further) Improve Community Norms Toward Disclosure&quot;">New “Reviewer Statement” Initiative Aims to (Further) Improve Community Norms Toward Disclosure</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/etienne-lebel.html" rel="author">Etienne LeBel</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/etienne-lebel.html" rel="author">Etienne LeBel</a>
 
    			   <p><img src="/images/etiennelebel.jpg" alt="Photo of Etienne LeBel" align="left" style="padding-right: 20px;" /></p>
 <p>An Open Science Collaboration -- made up of Uri Simonsohn, Etienne LeBel, Don Moore, Leif D. Nelson, Brian Nosek, and Joe Simmons -- is glad to announce a new initiative aiming to improve community norms toward the disclosure of basic methodological information during the peer-review process. Endorsed by the Center for Open Science, the initiative involves a standard reviewer statement that any peer reviewer can include in their review requesting that authors add a statement to the paper confirming that they have disclosed all data exclusions, experimental conditions, assessed measures, and how they determined their samples sizes (following from the 21-word solution; Simmons, Nelson, &amp; Simonsohn, 2012, 2013; see also <a href="http://psychdisclosure.org/">PsychDisclosure.org</a>; LeBel et al., 2013). Here is the statement, which is <a href="http://osf.io/project/hadz3">available on the Open Science Framework</a>:</p>
@@ -149,7 +180,7 @@ How can new technologies address these problems?  There have been few changes ma
 <p>Simmons J., Nelson L. &amp; Simonsohn U. (2012) <a href="http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D2160588&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGt1mELWBFnDRS2Yh-E-qm_tAp_2A">A 21 Word Solution.</a> Dialogue: The Official Newsletter of the Society for Personality and Social Psychology, 26(2), 4-7.</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/12/09/reviewer-statement-initiative/#disqus_thread" data-disqus-identifier="2013/12/09/reviewer-statement-initiative/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/12/09/reviewer-statement-initiative/">Posted at 11:30 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/12/09/reviewer-statement-initiative/#disqus_thread" data-disqus-identifier="2013/12/09/reviewer-statement-initiative/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/12/09/reviewer-statement-initiative/">Posted at 11:30 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -157,10 +188,10 @@ How can new technologies address these problems?  There have been few changes ma
                 <h4 class="date">Nov 27,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/11/27/the-state-of-open-access/" rel="bookmark" title="Permanent Link to &quot;The State of Open Access&quot;">The State of Open Access</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/11/27/the-state-of-open-access/" rel="bookmark" title="Permanent Link to &quot;The State of Open Access&quot;">The State of Open Access</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/shauna-gordon-mckeon.html" rel="author">Shauna Gordon-McKeon</a>
 
    			   <p>To celebrate <a href="http://www.openaccessweek.org/">Open Access Week</a> last month, we asked people four questions about the state of open access and how it's changing.  Here are some in depth answers from two people working on open access: <a href="http://cyber.law.harvard.edu/~psuber/wiki/Peter_Suber">Peter Suber</a>, Director of the <a href="https://osc.hul.harvard.edu/">Harvard Office for Scholarly Communication</a> and the <a href="http://cyber.law.harvard.edu/research/hoap">Harvard Open Access Project</a>, and <a href="http://www.plos.org/staff/elizabeth-silva/">Elizabeth Silva</a>, associate editor at the Public Library of Science (<a href="http://www.plos.org/">PLOS</a>).</p>
 <p><strong>How is your work relevant to the changing landscape of Open Access?  What would be a successful outcome of your work in this area?</strong></p>
@@ -207,7 +238,7 @@ communicators, and smaller institutions and companies. More fundamentally, limit
 <p><em>Elizabeth</em>: It’s starting to feel like universal open access is no longer “if” but “when”. In the next five years we will see funders and institutions recognize the importance of access and adopt policies that mandate and financially support OA; resistance will fade away, and it will simply be the way research is published. As that happens, I think the OA movement will shift towards tackling other issues in research communication: providing better measures of impact in the form of article level metrics, decreasing the time to publication, and improving reproducibility and utility of research.</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/11/27/the-state-of-open-access/#disqus_thread" data-disqus-identifier="2013/11/27/the-state-of-open-access/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/11/27/the-state-of-open-access/">Posted at  2:15 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/11/27/the-state-of-open-access/#disqus_thread" data-disqus-identifier="2013/11/27/the-state-of-open-access/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/11/27/the-state-of-open-access/">Posted at  2:15 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -215,10 +246,10 @@ communicators, and smaller institutions and companies. More fundamentally, limit
                 <h4 class="date">Nov 20,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/11/20/theoretical-amnesia/" rel="bookmark" title="Permanent Link to &quot;Theoretical Amnesia&quot;">Theoretical Amnesia</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/11/20/theoretical-amnesia/" rel="bookmark" title="Permanent Link to &quot;Theoretical Amnesia&quot;">Theoretical Amnesia</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/denny-borsboom.html" rel="author">Denny Borsboom</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/denny-borsboom.html" rel="author">Denny Borsboom</a>
 
    			   <p><img src="/images/DennyPortrait-cropped.png" alt="Photo of Denny
 Boorsboom" align="left" style="padding-right: 20px;" width="200px" /></p>
@@ -236,7 +267,7 @@ Boorsboom" align="left" style="padding-right: 20px;" width="200px" /></p>
 <p><sub>1  Caveat: I am not saying that people do this on purpose. I believe that free riders are typically unaware of the fact that they are free riders – people are very good at labeling their own actions positively, especially if the rest of the world says that they are brilliant. So, if you think this post isn’t about you, that could be entirely wrong. In fact, I cannot even be   sure that this post isn’t about me.</sub></p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/11/20/theoretical-amnesia/#disqus_thread" data-disqus-identifier="2013/11/20/theoretical-amnesia/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/11/20/theoretical-amnesia/">Posted at  2:00 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/11/20/theoretical-amnesia/#disqus_thread" data-disqus-identifier="2013/11/20/theoretical-amnesia/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/11/20/theoretical-amnesia/">Posted at  2:00 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -244,10 +275,10 @@ Boorsboom" align="left" style="padding-right: 20px;" width="200px" /></p>
                 <h4 class="date">Nov 13,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/11/13/report-findings-more-transparently/" rel="bookmark" title="Permanent Link to &quot;Let’s Report Our Findings More Transparently – As We Used to Do&quot;">Let’s Report Our Findings More Transparently – As We Used to Do</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/11/13/report-findings-more-transparently/" rel="bookmark" title="Permanent Link to &quot;Let’s Report Our Findings More Transparently – As We Used to Do&quot;">Let’s Report Our Findings More Transparently – As We Used to Do</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/etienne-lebel.html" rel="author">Etienne LeBel</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/etienne-lebel.html" rel="author">Etienne LeBel</a>
 
    			   <p><img src="/images/etiennelebel.jpg" alt="Photo of Etienne LeBel" align="left" style="padding-right: 20px;" /></p>
 <p>In 1959, Festinger and Carlsmith reported the results of an experiment that spawned a voluminous body of research on cognitive dissonance. In that experiment, all subjects performed a boring task. Some participants were paid $1 or $20 to tell the next subject the task was interesting and fun whereas participants in a control condition did no such thing. All participants then indicated how enjoyable they felt the task was, their desire to participate in another similar experiment, and the scientific importance of the experiment. The authors hypothesized that participants paid $1 to tell the next participant that the boring task they just completed was interesting would experience internal dissonance, which could be reduced by altering their attitudes on the three outcomes measures. A little known fact about the results of this experiment, however, is that only on <em>one</em> of these outcome measures did a statistically significant effect emerge across conditions. The authors reported that subjects paid $1 enjoyed the task more than those paid $20 (or the control participants), but no statistically significant differences emerged on the other two measures. </p>
@@ -266,7 +297,7 @@ Boorsboom" align="left" style="padding-right: 20px;" width="200px" /></p>
 <p>Word, C. O., Zanna, M. P., &amp; Cooper, J. (1974). <a href="https://catalyst.uw.edu/workspace/file/download/72b19d8df8de321d0fed3803109a14aaf7c7b6f3800f40f477d902ab0a5e173b">The nonverbal mediation of self-fulfilling prophecies in interracial interaction.</a> <em>Journal of Experimental Social Psychology</em>, 10(2), 109–120. doi: 10.1016/0022-1031(74)90059-6</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/11/13/report-findings-more-transparently/#disqus_thread" data-disqus-identifier="2013/11/13/report-findings-more-transparently/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/11/13/report-findings-more-transparently/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/11/13/report-findings-more-transparently/#disqus_thread" data-disqus-identifier="2013/11/13/report-findings-more-transparently/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/11/13/report-findings-more-transparently/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -274,10 +305,10 @@ Boorsboom" align="left" style="padding-right: 20px;" width="200px" /></p>
                 <h4 class="date">Nov  3,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/" rel="bookmark" title="Permanent Link to &quot;Increasing statistical power in psychological research without increasing sample size&quot;">Increasing statistical power in psychological research without increasing sample size</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/11/03/Increasing-statistical-power/" rel="bookmark" title="Permanent Link to &quot;Increasing statistical power in psychological research without increasing sample size&quot;">Increasing statistical power in psychological research without increasing sample size</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
 
    			   <p><strong>What is statistical power and precision?</strong></p>
 <p>This post is going to give you some practical tips to increase statistical power in your research. Before going there though, let’s make sure everyone is on the same page by starting with some definitions. </p>
@@ -344,7 +375,7 @@ is false. Many authors suggest a statistical power rate of at least .80, which c
 <p>Richard, F. D., Bond, C. r., &amp; Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. <em>Review of General Psychology, 7,</em> 331-363. doi:10.1037/1089-2680.7.4.331</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/#disqus_thread" data-disqus-identifier="2013/11/03/Increasing-statistical-power/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/">Posted at 12:00 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/11/03/Increasing-statistical-power/#disqus_thread" data-disqus-identifier="2013/11/03/Increasing-statistical-power/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/11/03/Increasing-statistical-power/">Posted at 12:00 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -352,10 +383,10 @@ is false. Many authors suggest a statistical power rate of at least .80, which c
                 <h4 class="date">Oct 25,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/10/25/its-easy-being-green-open-access/" rel="bookmark" title="Permanent Link to &quot;It’s Easy Being Green (Open Access)&quot;">It’s Easy Being Green (Open Access)</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/10/25/its-easy-being-green-open-access/" rel="bookmark" title="Permanent Link to &quot;It’s Easy Being Green (Open Access)&quot;">It’s Easy Being Green (Open Access)</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/frank-farach.html" rel="author">Frank Farach</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/frank-farach.html" rel="author">Frank Farach</a>
 
    			   <p><em>This is the first installment of the Open Science Toolkit, a recurring
 feature that outlines practical steps individuals and organizations can
@@ -430,376 +461,15 @@ to share any comments you have about the self-archiving process or about
 green OA. Happy archiving!</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/10/25/its-easy-being-green-open-access/#disqus_thread" data-disqus-identifier="2013/10/25/its-easy-being-green-open-access/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/10/25/its-easy-being-green-open-access/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-
-                <h4 class="date">Oct 16,  2013</h4>
-                <div class="post">
-<h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/10/16/thriving-au-naturel-amid-science-on-steroids/" rel="bookmark" title="Permanent Link to &quot;Thriving au naturel amid science on steroids&quot;">Thriving au naturel amid science on steroids</a>
-                    </h2>
-
-
-   			   <p><a href="http://briannosek.com">Brian A. Nosek</a><br />
-University of Virginia, Center for Open Science</p>
-<p><a href="http://jeffspies.com">Jeffrey R. Spies</a><br />
-Center for Open Science</p>
-<p><img src="/images/bnosek.jpg" alt="Photo of Brian Nosek" align="left" style="padding-right: 20px;" width="100px"> <img src="/images/jspies.jpg" alt="Photo of Jeffrey Spies" align="left" style="padding-right: 20px;" width="100px"> Last fall, the present first author taught a graduate class called
-“Improving (Our) Science” at the University of Virginia. The class
-reviewed evidence suggesting that scientific practices are not operating
-ideally and are damaging the reproducibility of publishing findings. For
-example, the power of an experimental design in null hypothesis
-significance testing is a function of the effect size being investigated
-and the size the sample to test it—power is greater when effects are
-larger and samples are bigger. In the authors’ field of psychology, for
-example, estimates suggest that the power of published studies to detect
-an average effect size is .50 or less (Cohen, 1962; Gigerenzer &amp;
-Sedlmeier, 1989). Assuming that all of the published effects are true,
-approximately 50% of published studies would reveal positive results
-(i.e., <em>p</em> &lt; .05 supporting the hypothesis). In reality, more than 90%
-of published results are positive (Sterling, 1959; <a href="http://dx.doi.org/10.1371/journal.pone.0010068">Fanelli,
-2010</a>).</p>
-<p>How is it possible that the average study has power to detect the
-average true effect 50% of the time or less and yet does so about 90% of
-the time? It isn’t. Then how does this occur? One obvious contributor is
-selective reporting. Positive effects are more likely than negative
-effects to be submitted and accepted for publication (Greenwald, 1975).
-The consequences include [1] the published literature is more likely to
-exaggerate the size of true effects because with low powered designs
-researchers must still leverage chance to obtain a large enough effect
-size to produce a positive result; and [2] the proportion of false
-positives – there isn’t actually an effect to detect – will be inflated
-beyond the nominal alpha level of 5% (Ioannidis, 2005).</p>
-<p>The class discussed this and other scientific practices that may
-interfere with knowledge accumulation. Some of the relatively common
-ones are described in Table 1 along with some solutions that we, and
-others, identified. Problem. Solution. Easy. The class just fixed
-science. Now, class members can adopt the solutions as best available
-practices. Our scientific outputs will be more accurate, and significant
-effects will be more reproducible. Our science will be better.</p>
-<p>Alex Schiller, a class member and graduate student, demurred. He agreed
-that the new practices would make science better, but disagreed that we
-should do them all. A better solution, he argued, is to take small
-steps: adopt one solution, wait for that to become standard scientific
-practice, and then adopt another solution.</p>
-<p>We know that some of our practices are deficient, we know how to improve
-them, but Alex is arguing that we shouldn’t implement all the solutions?
-Alex’s lapse of judgment can be forgiven—he’s just a graduate student.
-However, his point isn’t a lapse. Faced with the reality of succeeding
-as a scientist, Alex is right.</p>
-<h2>Table 1</h2>
-<p><strong>Scientific practices that increase irreproducibility of
-published findings, possible solutions, and barriers that prevent
-adoption of those solutions</strong></p>
-<table>
-<thead>
-<tr>
-<th>Practice</th>
-<th>Problem</th>
-<th>Possible Solution</th>
-<th>Barrier to Solution</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Run many low-powered studies rather than few high-powered studies</td>
-<td>Inflates false positive and false negative rates</td>
-<td>Run high-powered studies</td>
-<td>Non-significant effects are a threat to publishability; Risky to devote extra resources to high-powered tests that might not produce significant effects</td>
-</tr>
-<tr>
-<td>Report significant effects and dismiss non-significant effects as methodologically flawed</td>
-<td>Using outcome to evaluate method is a logical error and can inflate false positive rate</td>
-<td>Report all effects with rationale for why some should be ignored; let reader decide</td>
-<td>Non-significant and mixed effects are a threat to publishability</td>
-</tr>
-<tr>
-<td>Analyze during data collection, stop when significant result is obtained or continue until significant result is obtained</td>
-<td>Inflates false positive rate</td>
-<td>Define data stopping rule in advance</td>
-<td>Non-significant effects are a threat to publishability</td>
-</tr>
-<tr>
-<td>Include multiple conditions or outcome variables, report the subset that showed significant effects</td>
-<td>Inflates false positive rate</td>
-<td>Report all conditions and outcome variables</td>
-<td>Non-significant and mixed effects are a threat to publishability</td>
-</tr>
-<tr>
-<td>Try multiple analysis strategies, data exclusions, data transformations, report cleanest subset</td>
-<td>Inflates false positive rate</td>
-<td>Prespecify data analysis plan, or report all analysis strategies</td>
-<td>Non-significant and mixed effects are a threat to publishability</td>
-</tr>
-<tr>
-<td>Report discoveries as if they had resulted from confirmatory tests</td>
-<td>Inflates false positive rate</td>
-<td>Pre-specify hypotheses; Report exploratory and confirmatory analyses separately</td>
-<td>Many findings are discoveries, but stories are nicer and scientists seem smarter if they had thought it in advance</td>
-</tr>
-<tr>
-<td>Never do a direct replication</td>
-<td>Inflates false positive rate</td>
-<td>Conduct direct replications of important effects</td>
-<td>Incentives are focused on innovation, replications are boring; Original authors might feel embarrassed if their original finding is irreproducible</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note:</strong> For reviews of these practices and their effects see Ioannidis,
-2005; Giner-Sorolla, 2012; Greenwald, 1975; <a href="http://dx.doi.org/10.1177/0956797611430953">John et al.,
-2012</a>; <a href="http://dx.doi.org/10.1177/1745691612459058">Nosek et
-al., 2012</a>; <a href="http://dx.doi.org/10.1037/0033-2909.86.3.638">Rosenthal,
-1979</a>; Simmons et al., 2011; Young et al., 2008      </p>
-<h2>The Context</h2>
-<p>In an ideal world, scientists use the best available practices to
-produce accurate, reproducible science. But, scientists don’t live in an
-ideal world. Alex is creating a career for himself. To succeed, he must
-publish. Papers are academic currency. They are Alex’s ticket to job
-security, fame, and fortune. Well, okay, maybe just job security. But,
-not everything is published, and some publications are valued more than
-others. Alex can maximize his publishing success by producing particular
-kinds of results. Positive effects, not negative effects (<a href="http://dx.doi.org/10.1371/journal.pone.0010068">Fanelli,
-2010</a>;
-Sterling, 1959). Novel effects, not verifications of prior effects (<a href="http://dx.doi.org/10.1177/1745691612462588">Open
-Science Collaboration, 2012</a>). Aesthetically appealing, clean results,
-not results with ambiguities or inconsistencies (Giner-Sorolla, 2012).
-Just look in the pages of <em>Nature</em>, or any other leading journal, they
-are filled with articles producing positive, novel, beautiful results.
-They are wonderful, exciting, and groundbreaking. Who wouldn’t want
-that?</p>
-<p>We do want that, and science advances in leaps with groundbreaking
-results. The hard reality is that few results are actually
-groundbreaking. And, even for important research, the results are often
-far from beautiful. There are confusing contradictions, apparent
-exceptions, and things that just don’t make sense. To those in the
-laboratory, this is no surprise. Being at the frontiers of knowledge is
-hard. We don’t quite know what we are looking at. That’s why we are
-studying it. Or, as Einstein said, “If we knew what we were doing, it
-wouldn’t be called research”.
- 
-But, those outside the laboratory get a different impression. When the
-research becomes a published article, much of the muck goes away. The
-published articles are like the pictures of this commentary’s authors at
-the top of this page. Those pictures are about as good as we can look.
-You should see the discards. Those with insider access know, for
-example, that we each own three shirts with buttons and have highly
-variable shaving habits. Published articles present the best-dressed,
-clean-shaven versions of the actual work.</p>
-<p>Just as with people, when you replicate effects yourself to see them in
-person, they may not be as beautiful as they appeared in print. The
-published version often looks much better than reality. The effect is
-hard to get, dependent on a multitude of unmentioned limiting
-conditions, or entirely irreproducible (Begley &amp; Ellis, 2012; Prinz et
-al., 2011).</p>
-<h2>The Problem</h2>
-<p>It is not surprising that effects are presented in their best light.
-Career advancement depends on publishing success. More beautiful looking
-results are easier to publish and more likely to earn rewards
-(Giner-Sorolla, 2012). Individual incentives align for maximizing
-publishability, even at the expense of accuracy (<a href="http://dx.doi.org/10.1177/1745691612459058">Nosek et al.,
-2012</a>).</p>
-<p>Consider three hypothetical papers shown in Table 2. For all three, the
-researchers identified an important problem and had an idea for a novel
-solution. <em>Paper A</em> is a natural beauty. Two well planned studies showed
-effects supporting the idea. <em>Paper B</em> and <em>Paper C</em> were conducted with
-identical study designs. <em>Paper B</em> is natural, but not beautiful; <em>Paper
-C</em> is a manufactured beauty. Both <em>Paper B</em> and <em>Paper C</em> were based on 3
-studies. One study for each showed clear support for the idea. A second
-study was a mixed success for <em>Paper B</em>, but “worked” for <em>Paper C</em> after
-increasing the sample size a bit and analyzing the data a few different
-ways. A third study did not work for either. <em>Paper B</em> reported the
-failure with an explanation for why the methodology might be to blame,
-rather than the idea being incorrect. The authors of <em>Paper C</em> generated
-the same methodological explanation, categorized the study as a pilot,
-and did not report it at all. Also, <em>Paper C</em> described the final sample
-sizes and analysis strategies, but did not mention that extra data was
-collected after initial analysis, or that alternative analysis
-strategies had been tried and dismissed.</p>
-<h2>Table 2</h2>
-<p><strong>Summary of research practices for three hypothetical papers</strong></p>
-<table>
-<thead>
-<tr>
-<th>Step</th>
-<th>Paper</th>
-<th>Paper B</th>
-<th>Paper C</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Data collection</td>
-<td>Conducted two studies</td>
-<td>Conducted three studies</td>
-<td>Conducted three studies</td>
-</tr>
-<tr>
-<td>Data analysis</td>
-<td>Analyzed data after completing data collection following a pre-specified analysis plan</td>
-<td>Analyzed data after completing data collection following a pre-specified analysis plan</td>
-<td>Analyzed during data collection and collected more data to get to significance in one case.  Selected from multiple analysis strategies for all studies.</td>
-</tr>
-<tr>
-<td>Result reporting</td>
-<td>Reported the results of the planned analyses for both studies</td>
-<td>Reported the results of the planned analyses for all studies</td>
-<td>Reported results of final analyses only.  Did not report one study that did not reach significance.</td>
-</tr>
-<tr>
-<td>Final paper</td>
-<td>Two studies demonstrating clear support for idea</td>
-<td>One study demonstrating clear support for idea, one mixed, one not at all</td>
-<td>Two studies demonstrating clear support for idea</td>
-</tr>
-</tbody>
-</table>
-<p><em>Paper A</em> is clearly better than <em>Paper B</em>. <em>Paper A</em> should be
-published in a more prestigious outlet and generate more attention and
-accolade. <em>Paper C</em> <strong>looks</strong> like <em>Paper A</em>, but in reality it <strong>is</strong>
-like <em>Paper B</em>. The actual evidence is more circumspect than the
-apparent evidence. Based on the report, however, no one can tell the
-difference between <em>Paper A</em> and <em>Paper C</em>.</p>
-<p>Two possibilities would minimize the negative impact of publishing
-manufactured beauties like <em>Paper C</em>. First, if replication were
-standard practice, then manufactured effects would be identified
-rapidly. However, direct replication is very uncommon (<a href="http://dx.doi.org/10.1177/1745691612462588">Open Science
-Collaboration, 2012</a>). Once an effect is the literature, there is little
-systematic ethic to self-correct. Rather than be weeded out, false
-effects persist or just slowly fade away. Second, scientists could just
-avoid doing the practices that lead to <em>Paper C</em> making this
-illustration an irrelevant hypothetical. Unfortunately, a growing body
-of evidence suggests that these practices occur, and some are even
-common (e.g., <a href="http://dx.doi.org/10.1177/0956797611430953">John et al., 2012</a>).</p>
-<p>To avoid the practices that produce <em>Paper C</em>, the scientist must be
-aware of and confront a conflict-of-interest—what is best for science
-versus what is best for me. Scientists have inordinate opportunity to
-pursue flexible decision-making in design and analysis, and there is
-minimal accountability for those practices. Further, humans’ prodigious
-motivated reasoning capacities provide a way to decide that the outcomes
-that look best for us also has the most compelling rationale (<a href="http://dx.doi.org/10.1037/0033-2909.108.3.480">Kunda,
-1990</a>). So, we may convince ourselves that the best course of action for
-us was the best course of action period. It is very difficult to stop
-doing suspect practices when we have thoroughly convinced ourselves that
-we are not doing them.</p>
-<h2>The Solution</h2>
-<p>Alex needs to publish to succeed. The practices in Table 1 are to the
-scientist, what steroids are to the athlete. They amplify the likelihood
-of success in a competitive marketplace. If others are using, and Alex
-decides to rely on his natural performance, then he will disadvantage
-his career prospects. Alex wants to do the best science he can <em>and</em> be
-successful for doing it. In short, he is the same as every other
-scientist we know, ourselves included. Alex shouldn’t have to make a
-choice between doing the best science and being successful—these should
-be the same thing.</p>
-<p>Is Alex stuck? Must he wait for institutional regulation, audits, and
-the science police to fix the system? In a regulatory world, practices
-are enforced and he need not worry that he’s committing career suicide
-by following them. Many scientists are wary of a strong regulatory
-environment in science, particularly for the possibility of stifling
-innovation. Some of the best ideas start with barely any evidence at
-all, and restrictive regulations on confidence in outputs could
-discourage taking risks on new ideas. Nonetheless, funders, governments,
-and other stakeholders are taking notice of the problematic incentive
-structures in science. If we don’t solve the problem ourselves,
-regulators may solve them for us.</p>
-<p>Luckily, Alex has an alternative. The practices in Table 1 may be
-widespread, but the solutions are also well known and endorsed as good
-practice (<a href="http://dx.doi.org/10.1177/1745691612459521">Fuchs et al., 2012</a>). That is, scientists easily understand the
-differences between Papers A, B, and C – if they have full access to how
-the findings were produced. As a consequence, the only way to be
-rewarded for natural achievements over manufactured ones is to make the
-process of obtaining the results transparent. Using the best available
-practices privately will improve science but hurt careers. Using the
-best available practices publicly will improve science while
-simultaneously improving the reputation of the scientist. With openness,
-success can be influenced by the results <em>and</em> by how they were
-obtained.
- </p>
-<h2>Conclusion</h2>
-<p>The present incentives for publishing are focused on the one thing that
-we scientists are absolutely, positively not supposed to control - the
-results of the investigation. Scientists have complete control over the
-design, procedures, and execution of the study. The results are what
-they are.</p>
-<p>A better science will emerge when the incentives for achievement align
-with the things that scientists can (and should) control with their
-wits, effort, and creativity. With results, beauty is contingent on what
-is known about their origin. Obfuscation of methodology can make ugly
-results appear beautiful. With methodology, if it looks beautiful, it is
-beautiful. The beauty of methodology is <em>revealed</em> by openness.</p>
-<p>Most scientific results have warts. Evidence is halting, uncertain,
-incomplete, confusing, and messy. It is that way because scientists are
-working on hard problems. Exposing it will accelerate finding solutions
-to clean it up. Instead of trying to make results look beautiful when
-they are not, the inner beauty of science can be made apparent. Whatever
-the results, the inner beauty—strong design, brilliant reasoning,
-careful analysis—is what counts. With openness, we won’t stop aiming for
-A papers. But, when we get them, it will be clear that we earned them.</p>
-<h2>References</h2>
-<p>Begley, C. G., &amp; Ellis, L. M. (2012). Raise standards for preclinical
-cancer research. <em>Nature, 483</em>, 531-533.</p>
-<p>Cohen , J. (1962). The statistical power of abnormal-social
-psychological research: A review. <em>Journal of Abnormal and Social
-Psychology, 65</em>, 145-153.</p>
-<p>Fanelli, D. (2010). "Positive" results increase down the hierarchy of
-the sciences. <em>PLoS ONE, 5(4)</em>, e10068.
-<a href="http://dx.doi.org/10.1371/journal.pone.0010068">doi:10.1371/journal.pone.0010068</a></p>
-<p>Fuchs H., Jenny, M., &amp; Fiedler, S. (2012). Psychologists are open to
-change, yet wary of rules. <em>Perspectives on Psychological Science, 7,</em>
-634-637. <a href="http://dx.doi.org/10.1177/1745691612459521">doi:10.1177/1745691612459521</a></p>
-<p>Sedlmeier, P., &amp; Gigerenzer, G. (1989). Do studies of statistical power
-have an effect on the power of studies? <em>Psychological Bulletin, 105</em>,
-309-316.</p>
-<p>Giner-Sorolla, R. (2012). Science or art? How esthetic standards grease
-the way through the publication bottleneck but undermine science.
-<em>Perspectives on Psychological Science</em>.</p>
-<p>Greenwald, A. G. (1975). Consequences of prejudice against the null
-hypothesis. <em>Psychological Bulletin, 82</em>, 1-20.</p>
-<p>Ioannidis, J. P. A. (2005). Why most published research findings are
-false. <em>PLoS Medicine, 2</em>, e124.</p>
-<p>John, L., Loewenstein, G., &amp; Prelec, D. (2012). Measuring the prevalence
-of questionable research practices with incentives for truth-telling<em>.
-Psychological Science</em>, <em>23</em>, 524-532.
-<a href="http://dx.doi.org/10.1177/0956797611430953">doi:10.1177/0956797611430953</a></p>
-<p>Kunda, Z. (1990). The case for motivated reasoning. <em>Psychological
-Bulletin, 108,</em> 480-498. <a href="http://dx.doi.org/10.1037/0033-2909.108.3.480">doi:10.1037/0033-2909.108.3.480</a></p>
-<p>Nosek, B. A., Spies, J. R., &amp; Motyl, M. (2012). Scientific utopia: II.
-Restructuring incentives and practices to promote truth over
-publishability. <em>Perspectives on Psychological Science, 7,</em>615-631.
-<a href="http://dx.doi.org/10.1177/1745691612459058">doi:10.1177/1745691612459058</a></p>
-<p>Open Science Collaboration. (2012). An open, large-scale, collaborative
-effort to estimate the reproducibility of psychological science.
-<em>Perspectives on Psychological Science, 7,</em> 657-660.
- <a href="http://dx.doi.org/10.1177/1745691612462588">doi:10.1177/1745691612462588</a></p>
-<p>Prinz, F., Schlange, T. &amp; Asadullah, K. (2011). Believe it or not: how
-much can we rely on published data on potential drug targets? <em>Nature
-Reviews Drug Discovery, 10</em>, 712-713.</p>
-<p>Rosenthal, R. (1979). The file drawer problem and tolerance for null
-results. <em>Psychological Bulletin, 86,</em> 638-641.
-<a href="http://dx.doi.org/10.1037/0033-2909.86.3.638">doi:10.1037/0033-2909.86.3.638</a></p>
-<p>Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2011). False-positive
-psychology: Undisclosed flexibility in data collection and analysis
-allows presenting anything as significant. <em>Psychological Science, 22</em>,
-1359-1366.</p>
-<p>Sterling, T. D. (1959). Publication decisions and their possible effects
-on inferences drawn from tests of significance - or vice versa. <em>Journal
-of the American Statistical Association, 54</em>, 30-34.</p>
-<p>Young, N. S., Ioannidis, J. P. A., &amp; Al-Ubaydli, O. (2008). Why current
-publication practices may distort science. <em>PLoS Medicine, 5</em>,
-1418-1422.</p>
-                    <div class="clear"></div>
-                    <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/10/16/thriving-au-naturel-amid-science-on-steroids/#disqus_thread" data-disqus-identifier="2013/10/16/thriving-au-naturel-amid-science-on-steroids/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/10/16/thriving-au-naturel-amid-science-on-steroids/">Posted at  9:54 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/misc.html" rel="tag">misc</a>
+<a href="http://centerforopenscience.github.io/osc/2013/10/25/its-easy-being-green-open-access/#disqus_thread" data-disqus-identifier="2013/10/25/its-easy-being-green-open-access/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/10/25/its-easy-being-green-open-access/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
 
                 <div class="clear"></div>
                 <div class="pages">
-                    <a href="http://osc.centerforopenscience.org/category/misc3.html" class="prev_page">&larr;&nbsp;Previous</a>
-                    <a href="http://osc.centerforopenscience.org/category/misc5.html" class="next_page">Next&nbsp;&rarr;</a>
+                    <a href="http://centerforopenscience.github.io/osc/category/misc3.html" class="prev_page">&larr;&nbsp;Previous</a>
+                    <a href="http://centerforopenscience.github.io/osc/category/misc5.html" class="next_page">Next&nbsp;&rarr;</a>
                     <span>Page 4 of 5</span>
                 </div>
 
@@ -808,7 +478,7 @@ publication practices may distort science. <em>PLoS Medicine, 5</em>,
                     <p>
                     Mockingbird theme by <a href="http://nevanscott.com/">Nevan Scott</a>
                     &middot;
-                    <a class="atom" href="http://osc.centerforopenscience.org/feeds/all.atom.xml">Feed</a>
+                    <a class="atom" href="http://centerforopenscience.github.io/osc/feeds/all.atom.xml">Feed</a>
                 </div>
             </div>
             <div class="clear"></div>

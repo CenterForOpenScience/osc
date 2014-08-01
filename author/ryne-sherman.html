@@ -17,10 +17,10 @@
             <ul id="nav">
                 <li class="ephemeral selected"><a href="http://centerforopenscience.github.io/osc/author/ryne-sherman.html">Ryne Sherman</a></li>
                 <li><a href="http://centerforopenscience.github.io/osc">Home</a></li>
-                <li><a href="http://centerforopenscience.github.io/osc/pages/about.html">About</a></li>
-                <li><a href="http://centerforopenscience.github.io/osc/pages/authors.html">Authors</a></li>
-                <li><a href="http://centerforopenscience.github.io/osc/pages/policy.html">Policy</a></li>
-                <li><a href="http://centerforopenscience.github.io/osc/archives.html">Archives</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/pages/about.html">About</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/pages/authors.html">Authors</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/pages/policy.html">Policy</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
                 <h1><a href="http://centerforopenscience.github.io/osc"><img src="http://centerforopenscience.github.io/osc/images/osc-redblack.png" width="160px" style="margin-top:-60px;" /></a></h1>
@@ -82,7 +82,7 @@ res <span class="o">&lt;-</span> phack<span class="p">(</span>initialN<span clas
 <p>The first line tells us how many (out of the 1000 simulations) of the originally planned (N=30 in each group) studies had a p-value that was .05 or less. Because there was no true effect (grp1M = grp2M) this at just about the nominal rate of .05. But what if we had used our p-hacking scheme (testing every 5 subjects per condition until significant or N=200)? That result is in the next line. It shows that just about 20% of the time we would have gotten a statistically significant result. So this type of hacking has inflated our Type I error rate from 5% to 20%. How often would we have given up (i.e., N=200) before reaching statistical significance? That is about 80% of the time. We also averaged 28.87 “hacks” before reaching significance/stopping, averaged having to add N=144 (per condition) before significance/stopping, and had an average total N of 174 (per condition) before significance/stopping.</p>
 <p>What about effect sizes? Naturally the estimated effect size (r) was .00 if we just used our original N=30 in each group design. If we include the results of all 1000 completed simulations that effect size averages out to be r = .03. Most importantly, if we exclude those studies that never reached statistical significance, our average effect size r = .19.</p>
 <p>This is pretty telling. But there is more. We also get this nice picture:</p>
-<p><img src="images/phack.png" alt="Phack" /></p>
+<p><img src="/images/phack.png" alt="Phack" /></p>
 <p>It shows the distribution of the p-values below .05 for the initial study (upper panel) and for those p-values below .05 for those reaching statistical significance. The p-curves (see <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2256237">Simonsohn, Nelson, &amp; Simmons, 2013</a>) are also drawn on. If there is really no effect, we should see a flat p-curve (as we do in the upper panel). And if there is no effect and p-hacking has occurred, we should see a p-curve that slopes up towards the critical value (as we do in the lower panel).</p>
 <p>Finally, the function provides us with more detailed output that is summarized above. We can get a glimpse of this by running the following code:</p>
 <div class="highlight"><pre><span class="n">head</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
@@ -117,7 +117,7 @@ res <span class="o">&lt;-</span> phack<span class="p">(</span>initialN<span clas
 </pre></div>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://centerforopenscience.github.io/osc/2014/07/02/phack/#disqus_thread" data-disqus-identifier="2014/07/02/phack/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2014/07/02/phack/">Posted at  3:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/content.html" rel="tag">content</a>
+<a href="http://centerforopenscience.github.io/osc/2014/07/02/phack/#disqus_thread" data-disqus-identifier="2014/07/02/phack/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2014/07/02/phack/">Posted at  3:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/misc.html" rel="tag">misc</a>
                     </div>
                     <div class="clear"></div>
                 </div>
