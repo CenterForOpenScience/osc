@@ -3,24 +3,24 @@
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <title>A Pelican Blog &middot; Articles by Sean Mackinnon</title>
-<!--        <link rel="shortcut icon" href="http://osc.centerforopenscience.org/favicon.ico" /> -->
+<!--        <link rel="shortcut icon" href="http://centerforopenscience.github.io/osc/favicon.ico" /> -->
 		<link rel="shortcut icon" href="http://mcohn.net/rp/favicon.ico" />
-<link href="http://osc.centerforopenscience.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+<link href="http://centerforopenscience.github.io/osc/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
 
-        <link rel="stylesheet" href="http://osc.centerforopenscience.org/theme/css/screen.css" type="text/css" />
-        <link rel="stylesheet" href="http://osc.centerforopenscience.org/theme/css/pygments.css" type="text/css" />
+        <link rel="stylesheet" href="http://centerforopenscience.github.io/osc/theme/css/screen.css" type="text/css" />
+        <link rel="stylesheet" href="http://centerforopenscience.github.io/osc/theme/css/pygments.css" type="text/css" />
 
 
     </head>
     <body>
 <div id="header">
             <ul id="nav">
-                <li class="ephemeral selected"><a href="http://osc.centerforopenscience.org/author/sean-mackinnon.html">Sean Mackinnon</a></li>
-                <li><a href="http://osc.centerforopenscience.org">Home</a></li>
-<li><a href="http://osc.centerforopenscience.org/archives.html">Archives</a></li>
+                <li class="ephemeral selected"><a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html">Sean Mackinnon</a></li>
+                <li><a href="http://centerforopenscience.github.io/osc">Home</a></li>
+<li><a href="http://centerforopenscience.github.io/osc/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
-                <h1><a href="http://osc.centerforopenscience.org"><img src="http://osc.centerforopenscience.org/images/osc-redblack.png" width="160px" style="margin-top:-60px;" /></a></h1>
+                <h1><a href="http://centerforopenscience.github.io/osc"><img src="http://centerforopenscience.github.io/osc/images/osc-redblack.png" width="160px" style="margin-top:-60px;" /></a></h1>
             </div>
         </div>
         <div id="wrapper">
@@ -28,17 +28,17 @@
                 <h4 class="date">Jul  9,  2014</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2014/07/09/response-to-jason-mitchell/" rel="bookmark" title="Permanent Link to &quot;Response to Jason Mitchell’s  “On the Emptiness of Failed Replications”&quot;">Response to Jason Mitchell’s  “On the Emptiness of Failed Replications”</a>
+                        <a href="http://centerforopenscience.github.io/osc/2014/07/09/response-to-jason-mitchell/" rel="bookmark" title="Permanent Link to &quot;Response to Jason Mitchell’s  “On the Emptiness of Failed Replications”&quot;">Response to Jason Mitchell’s  “On the Emptiness of Failed Replications”</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
 
    			   <p>Jason Mitchell recently wrote an article entitled <a href="http://wjh.harvard.edu/~jmitchel/writing/failed_science.htm">“On the Emptiness of Failed Replications.”</a>. In this article, Dr. Mitchell takes an unconventional and extremely strong stance against replication, arguing that: “… studies that produce null results -- including preregistered studies -- should not be published.”  The crux of the argument seems to be that "scientists who get p &gt; .05 are just incompetent." It completely ignores the possibility that a positive result could also (maybe even equally) be due to experimenter error. Dr. Mitchell also appears to ignore the possibility of simply getting a false positive (which is expected to happen under the null in 5% of cases).  </p>
 <p>More importantly, it ignores issues of effect size and treats the outcome of research as a dichotomous "success or fail.” The advantages of examining effect sizes over simple directional hypotheses using null hypothesis significance testing are beyond the scope of this short post, but you might check out <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3444174/">Sullivan and Feinn (2012)</a> as an open-access starting point. Generally speaking, the problem is that sampling variation means that some experiments will find null results even when the experimenter does everything right. As an illustration, below is 1000 simulated correlations, assuming that r = .30 in the population, and a sample size of 100 (I used a <a href="http://www.quantpsy.org/rci/rci.htm">monte carlo method</a>).</p>
-<p><img src="/images/response1.png" alt="" align="center" style="padding-right: 20px;" /> </p>
+<p><img src="images/response1.png" alt="" align="center" style="padding-right: 20px;" /> </p>
 <p>In this picture, the units of analysis are individual correlations obtained in 1 of 1000 hypothetical research studies. The x-axis is the value of the correlation coefficient found, and the y-axis is the number of studies reporting that value. The red line is the critical value for significant results at p &lt; .05 assuming a sample size of 100. As you can see from this picture, the majority of studies are supportive of an effect that is greater than zero. However (simply due to chance) all the studies to the left of the red line turned out non-significant. If we suppressed all the null results (i.e., all those unlucky scientists to the left of the red line) as Dr. Mitchell suggests, then our estimate of the effect size in the population would be inaccurate; specifically, it would appear to be larger than it really is, because certain aspects of random variation (i.e., null results) are being selectively suppressed. Without the minority of null findings (in addition to the majority of positive findings) the overall estimate of the effect cannot be correctly estimated. </p>
 <p>The situation is even more grim if there really is no effect in the population. </p>
-<p><img src="/images/response2.png" alt="" align="center" style="padding-right: 20px;" /> </p>
+<p><img src="images/response2.png" alt="" align="center" style="padding-right: 20px;" /> </p>
 <p>In this case, a small proportion of studies will produce false positives, with a roughly equal chance of an effect in either direction. If we fail to report null results, false positives may be reified as substantive effects. The reversal of signs across repeated studies might be a warning sign that the effect doesn’t really exist, but without replication, a single false positive could define a field if it happens (by chance) to be in line with prior theory.</p>
 <p>With this in mind, I also disagree that replications are “publicly impugning the scientific integrity of their colleagues.” Some people feel threatened or attacked by replication. The ideas we produce as scientists are close to our hearts, and we tend to get defensive when they’re challenged. If we focus on effect sizes, rather than the “success or fail” logic of null hypothesis significance testing, then I don’t believe that “failed” replications damage the integrity of the original author, but rather simply suggests that we should modulate the estimate of the effect size downwards. In this framework, replication is less about “proving someone wrong” and more about centering on the magnitude of an effect size. </p>
 <p>Something that is often missed in discussion of replication is that the very nature of randomness inherent in the statistical procedures scientists use means that any individual study (even if perfectly conducted) will probably generate an effect size that is a bit larger or smaller than it is in the population. It is only through repeated experiments that we are able to center on an accurate estimate of the effect size.  This issue is independent of researcher competence, and means that even the most competent researchers will come to the wrong conclusions occasionally because of the statistical procedures and cutoffs we’ve chosen to rely on. With this in mind, people should be aware that a failed replication does not necessarily mean that one of the two researchers is incorrect or incompetent – instead, it is assumed (until further evidence is collected) that the best estimate is a weighted average of the effect size from each research study.</p>
@@ -51,7 +51,7 @@
 <p><a href="http://blogs.discovermagazine.com/neuroskeptic/2014/07/07/emptiness-failed-replications/#.U7wKgBYyxgp">"On 'On the emptiness of failed replications'"</a> by <a href="http://discovermagazine.com/authors?name=Neuroskeptic">Neuroskeptic</a></p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2014/07/09/response-to-jason-mitchell/#disqus_thread" data-disqus-identifier="2014/07/09/response-to-jason-mitchell/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2014/07/09/response-to-jason-mitchell/">Posted at 12:30 pm</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/content.html" rel="tag">content</a>
+<a href="http://centerforopenscience.github.io/osc/2014/07/09/response-to-jason-mitchell/#disqus_thread" data-disqus-identifier="2014/07/09/response-to-jason-mitchell/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2014/07/09/response-to-jason-mitchell/">Posted at 12:30 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/content.html" rel="tag">content</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -59,10 +59,10 @@
                 <h4 class="date">Jan 29,  2014</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2014/01/29/privacy-and-open-data/" rel="bookmark" title="Permanent Link to &quot;Privacy in the Age of Open Data&quot;">Privacy in the Age of Open Data</a>
+                        <a href="http://centerforopenscience.github.io/osc/2014/01/29/privacy-and-open-data/" rel="bookmark" title="Permanent Link to &quot;Privacy in the Age of Open Data&quot;">Privacy in the Age of Open Data</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
 
    			   <p>Nothing is really private anymore.  Corporations like Facebook and Google have been collecting our information for some time, and selling it in aggregate to the highest bidder. People have been raising concerns over these invasions of privacy, but generally only technically-savvy, highly motivated people can really be successful at remaining anonymous in this new digital world.</p>
 <p>For a variety of incredibly important reasons, we are moving towards open research data as a scientific norm – that is, micro datasets and statistical syntax openly available to anyone who wants it. However, some people are uncomfortable with open research data, because they have concerns about privacy and confidentiality violations.  Some of these violations are even making the news: <a href="http://wi.mit.edu/news/archive/2013/scientists-expose-new-vulnerabilities-security-personal-genetic-information">A high profile case</a> about people being identified from their publicly shared genetic information comes to mind.</p>
@@ -89,7 +89,7 @@
 <p>As a community of scientists devoted to making science more transparent and open, we also carry the responsibility of protecting the privacy and rights of participants as much as is possible. I don’t think we have all the answers yet, and there’s a lot more to consider when moving forward.  Ethical principles are not static; there are no single “right” answers that will be appropriate for all research, and standards will change as technology and social mores change with each generation. Still, by moving forward with an open mind, and a strong ethical conscience to protect the privacy of participants, I believe that data can really be both open and private. </p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2014/01/29/privacy-and-open-data/#disqus_thread" data-disqus-identifier="2014/01/29/privacy-and-open-data/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2014/01/29/privacy-and-open-data/">Posted at 11:00 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/content.html" rel="tag">content</a>
+<a href="http://centerforopenscience.github.io/osc/2014/01/29/privacy-and-open-data/#disqus_thread" data-disqus-identifier="2014/01/29/privacy-and-open-data/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2014/01/29/privacy-and-open-data/">Posted at 11:00 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/content.html" rel="tag">content</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -97,10 +97,10 @@
                 <h4 class="date">Dec 18,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/12/18/researcher-degrees-of-freedom/" rel="bookmark" title="Permanent Link to &quot;Researcher Degrees of Freedom in Data Analysis&quot;">Researcher Degrees of Freedom in Data Analysis</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/12/18/researcher-degrees-of-freedom/" rel="bookmark" title="Permanent Link to &quot;Researcher Degrees of Freedom in Data Analysis&quot;">Researcher Degrees of Freedom in Data Analysis</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
 
    			   <p>The enormous amount of options available for modern data analysis is both a blessing and a curse. On one hand, researchers have specialized tools for any number of complex questions. On the other hand, we’re also faced with a staggering number of equally-viable choices, many times without any clear-cut guidelines for deciding between them. For instance, I just popped open SPSS statistical software and counted 18 different ways to conduct post-hoc tests for a one-way ANOVA. Some choices are clearly inferior (e.g., the <a href="http://www.graphpad.com/guides/prism/6/statistics/index.htm?stat_fishers_lsd.htm">LSD test</a> doesn’t adjust p-values for multiple comparisons) but it’s possible to defend the use of many of the available options. These ambiguous choice points are sometimes referred to as researcher degrees of freedom.</p>
 <p>In theory, researcher degrees of freedom shouldn’t be a problem. More choice is better, right? The problem arises from two interconnected issues: (a) Ambiguity as to which statistical test is most appropriate and (b) an incentive system where scientists are rewarded with publications, grants, and career stability when their p-values fall below the revered p &lt; .05 criterion. So, perhaps unsurprisingly, when faced with a host of ambiguous options for data analysis, most people settle on the one that achieves statistically significant results. Simmons, Nelson, and Simonsohn (2011) argue that this undisclosed flexibility in data analysis allows people to present almost any data as “significant,” and calls for 10 simple guidelines for reviewers and authors to disclose in every paper – which, if you haven’t read yet <a href="http://pss.sagepub.com/content/22/11/1359.full.pdf+html">are worth checking out</a>. In this post, I will discuss a few guidelines of my own for conducting data analysis in a way that strives to overcome our inherent tendency to be self-serving.</p>
@@ -120,7 +120,7 @@
 <p>Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2011). <a href="http://pss.sagepub.com/content/22/11/1359.full.pdf+html">False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant.</a> Psychological Science, 22, 1359-1366. doi:10.1177/0956797611417632</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/12/18/researcher-degrees-of-freedom/#disqus_thread" data-disqus-identifier="2013/12/18/researcher-degrees-of-freedom/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/12/18/researcher-degrees-of-freedom/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/content.html" rel="tag">content</a>
+<a href="http://centerforopenscience.github.io/osc/2013/12/18/researcher-degrees-of-freedom/#disqus_thread" data-disqus-identifier="2013/12/18/researcher-degrees-of-freedom/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/12/18/researcher-degrees-of-freedom/">Posted at 12:00 pm</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/content.html" rel="tag">content</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -128,10 +128,10 @@
                 <h4 class="date">Nov  3,  2013</h4>
                 <div class="post">
 <h2 class="title">
-                        <a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/" rel="bookmark" title="Permanent Link to &quot;Increasing statistical power in psychological research without increasing sample size&quot;">Increasing statistical power in psychological research without increasing sample size</a>
+                        <a href="http://centerforopenscience.github.io/osc/2013/11/03/Increasing-statistical-power/" rel="bookmark" title="Permanent Link to &quot;Increasing statistical power in psychological research without increasing sample size&quot;">Increasing statistical power in psychological research without increasing sample size</a>
                     </h2>
 
-                    by <a href="http://osc.centerforopenscience.org/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
+                    by <a href="http://centerforopenscience.github.io/osc/author/sean-mackinnon.html" rel="author">Sean Mackinnon</a>
 
    			   <p><strong>What is statistical power and precision?</strong></p>
 <p>This post is going to give you some practical tips to increase statistical power in your research. Before going there though, let’s make sure everyone is on the same page by starting with some definitions. </p>
@@ -166,7 +166,7 @@ is false. Many authors suggest a statistical power rate of at least .80, which c
 <p>Okay, so now you know what power is. But why should you care? Fifty years ago,<a href="http://dx.doi.org/10.1037/h0045186"> Cohen (1962)</a> estimated the statistical power to detect a medium effect size in abnormal psychology was about .48. That’s a false negative rate of 52%, which is no better than a coin-flip! The situation has improved slightly, but it’s still a serious problem today. For instance, one review suggested only 52% of articles in the applied psychology literature achieved .80 power for a medium effect size (<a href="http://dx.doi.org/10.1111/j.1744-6570.1996.tb01793.x">Mone et al., 1996</a>). This is in part because psychologists are studying small effects. One massive review of 322 meta-analyses including 8 million participants (<a href="http://dx.doi.org/10.1037/1089-2680.7.4.331">Richard et al., 2003</a>) suggested that the average effect size in social psychology is relatively small (<em>r</em> = .21). To put this into perspective, you’d need 175 participants to have .80 power for a simple correlation between two variables at this effect size. This gets even worse when we’re studying interaction effects. One review suggests that the average effect size for interaction effects is even smaller (f2 = .009), which means that sample sizes of around 875 people would be needed to achieve .80 power (<a href="http://dx.doi.org/10.1037/0021-9010.90.1.94">Aguinis et al., 2005</a>). Odds are, if you took the time to design a research study and collect data, you want to find a relationship if one really exists. You don’t want to "miss" something that is really there. More than this, you probably want to have a reasonably precise estimate of the effect size (it’s not that impressive to just say a relationship is positive and probably non-zero). Below, I discuss concrete strategies for improving power and precision.</p>
 <p><strong>What can we do to increase power?</strong></p>
 <p>It is well-known that increasing sample size increases statistical power and precision. Increasing the population effect size increases statistical power, but has no effect on precision (<a href="http://dx.doi.org/10.1146/annurev.psych.59.103006.093735">Maxwell et al., 2008</a>). Increasing sample size improves power and precision by reducing <a href="http://www.investopedia.com/terms/s/standard-error.asp">standard error</a> of the effect size. Take a look at this formula for the confidence interval of a linear regression coefficient (<a href="http://dx.doi.org/10.1037/1082-989X.2.1.3">McClelland, 2000</a>):</p>
-<p><img src="/images/power-equation.png" alt="Power Equation"> </p>
+<p><img src="images/power-equation.png" alt="Power Equation"> </p>
 <p>MSE is the mean square error, n is the sample size, Vx is the variance of X, and (1-<em>R</em>2) is the proportion of the variance in X not shared by any other variables in the model. Okay, hopefully you didn’t nod off there. There’s a reason I’m showing you this formula. In this formula, decreasing any value in the numerator (MSE) or increasing anything in the denominator (n, Vx, 1-<em>R</em>2) will decrease the standard error of the effect size, and will thus increase power and precision. This formula demonstrates that there are at least three other ways to increase statistical power aside from sample size: (a) Decreasing the mean square error; (b) increasing the variance of x; and (c) increasing the proportion of the variance in X not shared by any other predictors in the model. Below, I’ll give you a few ways to do just that. </p>
 <p><strong>Recommendation 1: Decrease the mean square error</strong></p>
 <p>Referring to the formula above, you can see that decreasing the mean square error will have about the same impact as increasing sample size. Okay. You’ve probably heard the term "<a href="http://stats.oecd.org/glossary/detail.asp?ID=3716">mean square error</a>" before, but the definition might be kind of fuzzy. Basically, your model makes a prediction for what the outcome variable (Y) should be, given certain values of the predictor (X). Naturally, it’s not a perfect prediction because you have measurement error, and because there are other important variables you probably didn’t measure. The mean square error is the difference between what your model predicts, and what the true values of the data actually are.  So, anything that improves the quality of your measurement or accounts for potential confounding variables will reduce the mean square error, and thus improve statistical power. Let’s make this concrete. Here are three specific techniques you can use:</p>
@@ -198,7 +198,7 @@ is false. Many authors suggest a statistical power rate of at least .80, which c
 <p>Richard, F. D., Bond, C. r., &amp; Stokes-Zoota, J. J. (2003). One Hundred Years of Social Psychology Quantitatively Described. <em>Review of General Psychology, 7,</em> 331-363. doi:10.1037/1089-2680.7.4.331</p>
                     <div class="clear"></div>
                     <div class="info">
-<a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/#disqus_thread" data-disqus-identifier="2013/11/03/Increasing-statistical-power/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://osc.centerforopenscience.org/2013/11/03/Increasing-statistical-power/">Posted at 12:00 am</a>&nbsp;&middot;&nbsp;<a href="http://osc.centerforopenscience.org/category/content.html" rel="tag">content</a>
+<a href="http://centerforopenscience.github.io/osc/2013/11/03/Increasing-statistical-power/#disqus_thread" data-disqus-identifier="2013/11/03/Increasing-statistical-power/" style="text-decoration:underline; color: black">Discuss this post</a> | <a href="http://centerforopenscience.github.io/osc/2013/11/03/Increasing-statistical-power/">Posted at 12:00 am</a>&nbsp;&middot;&nbsp;<a href="http://centerforopenscience.github.io/osc/category/content.html" rel="tag">content</a>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -208,7 +208,7 @@ is false. Many authors suggest a statistical power rate of at least .80, which c
                     <p>
                     Mockingbird theme by <a href="http://nevanscott.com/">Nevan Scott</a>
                     &middot;
-                    <a class="atom" href="http://osc.centerforopenscience.org/feeds/all.atom.xml">Feed</a>
+                    <a class="atom" href="http://centerforopenscience.github.io/osc/feeds/all.atom.xml">Feed</a>
                 </div>
             </div>
             <div class="clear"></div>
