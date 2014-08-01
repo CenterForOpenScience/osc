@@ -14,4 +14,5 @@ SITEURL = 'http://centerforopenscience.github.io/osc'
 STATIC_PATHS = ['images', 'static']
 SUMMARY_MAX_LENGTH = 10000
 THEME = 'pelican-mockingbird/'
+TITLE = 'Open Science Collaboration Blog'
 
