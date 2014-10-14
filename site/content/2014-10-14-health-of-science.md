@@ -2,7 +2,6 @@ Title: A Psi Test for the Health of Science
 Author: Alex Holcombe
 Date: 2014-10-14 11:00
 Slug: health-of-science
-Status: draft
 
 **Science is sick. How will we know when it's been cured?**
 
