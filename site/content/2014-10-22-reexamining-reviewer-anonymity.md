@@ -2,7 +2,6 @@ Title: Reexamining Reviewer Anonymity - More Costs than Benefits
 Author: Aaron Goetz
 Date: 2014-10-22 12:00
 Slug: reexamining-reviewer-anonymity
-Status: draft
 
 
 Academic publishing dogma holds that peer reviewers (aka referees) should be anonymous. In the vast majority of cases, however, there are more costs than benefits to reviewer anonymity. Here, I make the case that reviewer identity and written reviews themselves should become publicly accessible information. Until then, reviewers should sign their reviews, as this practice can increase rigor, expose biases, encourage goodwill, and could serve as an honest signal of review quality and integrity.
