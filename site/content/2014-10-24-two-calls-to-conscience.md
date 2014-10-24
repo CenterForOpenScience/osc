@@ -1,4 +1,4 @@
-Title: Two Calls to Conscience In the Fight For Open Access
+Title: Two Calls to Conscience in the Fight for Open Access
 Author: Shauna Gordon-McKeon, Sheila Miguez
 Date: 2014-10-24 12:00
 Slug: two-calls-to-conscience
