@@ -2,7 +2,6 @@ Title: Two Calls to Conscience in the Fight for Open Access
 Author: Shauna Gordon-McKeon, Sheila Miguez
 Date: 2014-10-24 12:00
 Slug: two-calls-to-conscience
-Status: draft
 
 In celebration of [Open Access Week](http://www.openaccessweek.org/), we'd like to share two pieces of writing from open access advocates who faced or are facing persecution for their efforts towards sharing knowledge.
 
