@@ -60,7 +60,7 @@ Needless to say, [Google](http://google.com) is your friend for finding more exa
 
 ### Minimal R, LaTeX and Sweave example
 
-A minimal example of using R and LaTeX using Sweave can be downloaded here: minimal.zip
+A minimal example of using R and LaTeX using Sweave can be downloaded here: [reproducible-reporting.zip](http://osc.centerforopenscience.org/static/reproducible-reporting.zip).
 
 To get it working do the following:
 
