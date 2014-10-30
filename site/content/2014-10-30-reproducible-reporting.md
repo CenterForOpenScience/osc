@@ -2,8 +2,6 @@ Title: Reproducible Reporting
 Author: Ingmar Visser
 Date: 2014-10-30 12:00
 Slug: reproducible-reporting
-Status: draft
-
 
 ## Why reproducible reporting?
 
