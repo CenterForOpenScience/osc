@@ -75,17 +75,19 @@ To get the flavour, start with loading some data and use 'head(sleep)' to see wh
 data(sleep)
 head(sleep)
 ```
+<img src="/images/plot1.png" alt="Fraser Neiman addresses crowd" >
 
 This data gives the 'case' values for application of two types of drug and its influence on hours of sleep. The following plots the means and standard deviations of the two types of treatments:
 ```{r}
 plot(extra~group,data=sleep)
 ```
+<img src="/images/plot2.png" alt="Fraser Neiman addresses crowd" >
 
 This data set is the one used by Student to introduce his t-test, so it's only fitting to do such a test on these data here:
 ```{r}
 t.test(extra~group,data=sleep,paired=TRUE)
 ```
-
+<img src="/images/plot3.png" alt="Fraser Neiman addresses crowd" >
 ---
 
 There is much more to say about reproducibility in reporting and statistical analysis than a blog can contain. There are several recent books on the topic for further reading: 
