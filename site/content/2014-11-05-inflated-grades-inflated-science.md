@@ -2,7 +2,6 @@ Title: Inflated Grades, Inflated Science
 Author: Sean P. Mackinnon
 Date: 2014-11-05 12:00
 Slug: inflated-grades-inflated-science
-Status: draft
 
 This year, I’ve been teaching a lot more than usual. With that extra teaching comes a lot more grading – and students with concerns about grades.  With [all the talk about grade inflation lately](http://www.psmag.com/education/good-reason-grade-inflation-stay-princeton-harvard-university-71087/), I’ve been thinking about HOW grades come to be inflated. While there are certainly [political pressures](http://drjamesthompson.blogspot.de/2014/07/leberwusrt-university-somewhere-in.html) from governments and institutions to produce “successful” students that contribute to grade inflation, I’m thinking about these problems like a psychologist -- a data analyst, really.  I’ve learned a lot by working in the open science movement about the psychological processes that underlie questionable research practices and effect size inflation. In this post, I want to draw parallels between grade inflation at universities, and effect size inflation in scientific research.  To some extent, I think there are similar psychological processes that contribute to both problems.
 
