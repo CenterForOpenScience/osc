@@ -1,5 +1,5 @@
 Title: This train won't stop anytime soon
-Author: Denny Boorsboom
+Author: Denny Borsboom
 Date: 2014-11-12 12:00
 Slug: this-train-wont-stop
 Status: draft
