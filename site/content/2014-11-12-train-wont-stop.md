@@ -2,7 +2,6 @@ Title: Facilitating Radical Change in Publication Standards
 Author: Denny Borsboom
 Date: 2014-11-12 12:00
 Slug: facilitating-radical-change
-Status: draft
 
 This train won't stop anytime soon. 
 
