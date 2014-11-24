@@ -1,8 +1,7 @@
 Title: The Noba Project and Open Science
 Author: Robert Diener
-Date: 2014-11-19 12:00
+Date: 2014-11-24 17:00
 Slug: the-noba-project
-Status: draft
 
 The Noba Project is an open psychology education initiative of the Diener Education Fund. Noba was envisioned as an open and free substitute to traditional intro-to-psychology materials that cost anywhere from $100 to $200 for a single book.
  
