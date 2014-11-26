@@ -2,7 +2,6 @@ Title: Why I Dressed up as a Replication Bully for Halloween and Otherwise Dress
 Author: Jon Grahe
 Date: 2014-11-26 14:00
 Slug: clown-for-open-science
-Status: draft
 
 Do you follow me on Twitter, are we Facebook friends? If so, you might know that my pictures almost always include me in a COS t-shirt. That is unless I’m promoting Little Jerry’s, my local burgers and breakfast joint that I also provide free endorsements for. This past summer, I traveled to Psi Chi and Council for Undergraduate Research meetings plus a family visit for three weeks. I only had 6 shirts in my carryon luggage, and there were four colors of COS t-shirts. I still wear my COS t-shirts at least weekly, and on any occasion where a new audience may have a chance to ask me about COS and various aspects of open science, and I try to make sure I post a picture of it on Facebook and Twitter. In the scientific revolution, I like to think of myself as a bard; but my colleagues might be more likely to label me as a clown.  
 
