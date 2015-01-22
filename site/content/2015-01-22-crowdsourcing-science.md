@@ -1,6 +1,6 @@
 Title: It’s All Happening - The Future of Crowdsourcing Science
 Author: Erica Baranski
-Date: 2015-01-22 15:50
+Date: 2015-01-22 11:50
 Slug: crowdsourcing-science
 
 __Excitement in the air__
