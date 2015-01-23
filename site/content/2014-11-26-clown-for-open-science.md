@@ -5,7 +5,7 @@ Slug: clown-for-open-science
 
 Do you follow me on Twitter, are we Facebook friends? If so, you might know that my pictures almost always include me in a COS t-shirt. That is unless I’m promoting Little Jerry’s, my local burgers and breakfast joint that I also provide free endorsements for. This past summer, I traveled to Psi Chi and Council for Undergraduate Research meetings plus a family visit for three weeks. I only had 6 shirts in my carryon luggage, and there were four colors of COS t-shirts. I still wear my COS t-shirts at least weekly, and on any occasion where a new audience may have a chance to ask me about COS and various aspects of open science, and I try to make sure I post a picture of it on Facebook and Twitter. In the scientific revolution, I like to think of myself as a bard; but my colleagues might be more likely to label me as a clown.  
 
-<img src="/images/jgrahe_shirt1.jpg">
+<img src="images/jgrahe_shirt1.jpg">
 
 My mother-in-law is starting to think that something is wrong with me. What do I get out of it? Maybe you are starting to wonder too; more likely you don’t really care. However, I think you should, and I welcome competition from more popular, more creative people to take the title as “most variously photographed COS t-shirt wearer” in 2015. I think the challengers should also identify a better title for the winner. So I challenge you to become more active, personal advertisers of the COS specifically and open science generally.  
 
@@ -21,7 +21,7 @@ In these brief conversations, I talk about Psychology’s Crisis of Confidence a
 
 Most recently, I got a miniscule amount of Twitter activity wearing one of my COS t-shirts in a costume as a Replication Bully. I loved the costume. I included Open Science Badges as facepaint and drew them on my shield. I fashioned a nasty staff and joined my family medieval fantasy theme. Throughout the night, I probably explained that costume 25 times to peers at one event and then a host of younger people at another. Only a few prior students understood. 
 
-<img src="/images/jgrahe_shirt2.jpg">
+<img src="images/jgrahe_shirt2.jpg">
 
 Many party goers ignored it completely, and some asked questions. On Twitter, I made some pithy statements about open science and the evils of the Replication Bully. What I hope is that some of the witnesses go visit the COS or talk about Open Science with their peers. Though this conversation is nauseating with each other, students and the general public seem to be interested and can help reach across scientific disciplines. Consider the disciplines impacted at your host institutions.
 
@@ -31,7 +31,7 @@ Is the COS a valuable contribution to our field?  Go visit their website and fol
 
 But I think that discussion is critical and if there are criticisms of the Many Labs 1, 2, or 3 methodology, it should be reported. I predict that it will likely be addressed in Many Labs 4, 5, ..., k. I welcome the Many Labs teams into my lab, and my classroom, and I welcome their vibrant introduction of openness and persistence into our science. For the CREP, the study selection resulted from identifying studies based on impact factor and feasibility for undergraduates to complete, but we recently started soliciting requests for favorite or classic studies. How does study selection impact bias of effect estimates? I bet some of those replication science hordes (a revolutionary population filled with normally distributed personalities and interpersonal styles no doubt) will identify methods of testing this and suggesting further tests and corrections.  
 
-<img src="/images/jgrahe_shirt3.jpg">
+<img src="images/jgrahe_shirt3.jpg">
 
 When I planned my Halloween costume, I thought about dressing as a hero and imitating some replication science icons, but it is a time for horror so I chose a villain. Thanksgiving is coming; this blog is not likely to be live by then, but if I have the opportunity, I’ll pose with a COS tshirt and try to represent Thanks. I’ll tweet it and post it on FB. I’ll hope that it is ingenious enough to peek some interest in the COS and meta-science projects generally and the CREP indirectly. My next opportunity is the holiday season, and then conference season will ensue. In each case, I will expose as many people as possible to open science, either through personal connection or via social media. My goal will be trying to visually connect my renewed excitement in our field with the organization that will most likely bring about the improvement many of us have craved for decades at least.
 
@@ -39,4 +39,4 @@ Why not embrace replication science opportunities? I saturate my social network 
 
 If you prefer to demonstrate your effort by working hard and quietly advancing open science principles, so be it. If you engage in replication bullying, I will distance myself from you. If you are fun and lively and fancy yourself a bard, but might sometimes act like a clown, expand the conversation about open science beyond psychology. As with other social movements, change will come slowly and it is likely the next generation that will see the largest gains from the current revolution in methods and scientific values. In the meantime, I’ll go put my t-shirts in the laundry and think about what they may look like on a turkey.
 
-<img src="/images/jgrahe_shirt4.jpg">
+<img src="images/jgrahe_shirt4.jpg">
