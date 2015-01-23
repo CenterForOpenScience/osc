@@ -17,7 +17,10 @@
             <ul id="nav">
                 <li class="ephemeral selected"><a href="http://centerforopenscience.github.io/osc/author/ingmar-visser.html">Ingmar Visser</a></li>
                 <li><a href="http://centerforopenscience.github.io/osc">Home</a></li>
-<li><a href="http://centerforopenscience.github.io/osc/archives.html">Archives</a></li>
+                <li><a href="http://centerforopenscience.github.io/osc/pages/about.html">About</a></li>
+                <li><a href="http://centerforopenscience.github.io/osc/pages/authors.html">Authors</a></li>
+                <li><a href="http://centerforopenscience.github.io/osc/pages/policy.html">Policy</a></li>
+                <li><a href="http://centerforopenscience.github.io/osc/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
                 <h1><a href="http://centerforopenscience.github.io/osc"><img src="http://centerforopenscience.github.io/osc/images/osc-redblack.png" width="160px" style="margin-top:-60px;" /></a></h1>
@@ -103,19 +106,19 @@ head<span class="p">(</span>sleep<span class="p">)</span>
 </pre></div>
 
 
-<p><img src="/images/plot1.png" alt="Fraser Neiman addresses crowd" ></p>
+<p><img src="images/plot1.png" alt="Fraser Neiman addresses crowd" ></p>
 <p>This data gives the 'case' values for application of two types of drug and its influence on hours of sleep. The following plots the means and standard deviations of the two types of treatments:</p>
 <div class="highlight"><pre>plot<span class="p">(</span>extra<span class="o">~</span>group<span class="p">,</span>data<span class="o">=</span>sleep<span class="p">)</span>
 </pre></div>
 
 
-<p><img src="/images/plot2.png" alt="Fraser Neiman addresses crowd" ></p>
+<p><img src="images/plot2.png" alt="Fraser Neiman addresses crowd" ></p>
 <p>This data set is the one used by Student to introduce his t-test, so it's only fitting to do such a test on these data here:</p>
 <div class="highlight"><pre>t.test<span class="p">(</span>extra<span class="o">~</span>group<span class="p">,</span>data<span class="o">=</span>sleep<span class="p">,</span>paired<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
 </pre></div>
 
 
-<h2><img src="/images/plot3.png" alt="Fraser Neiman addresses crowd" ></h2>
+<h2><img src="images/plot3.png" alt="Fraser Neiman addresses crowd" ></h2>
 <p>There is much more to say about reproducibility in reporting and statistical analysis than a blog can contain. There are several recent books on the topic for further reading: </p>
 <p>Gandrud, C. (2013). Reproducible research with R and RStudio. CRC Press.</p>
 <p>Stodden, V., Leisch, F., &amp; Peng, R. D. (Eds.). (2014). Implementing Reproducible Research. CRC Press.</p>
