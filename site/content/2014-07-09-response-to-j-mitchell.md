@@ -7,13 +7,13 @@ Jason Mitchell recently wrote an article entitled [“On the Emptiness of Failed
 
 More importantly, it ignores issues of effect size and treats the outcome of research as a dichotomous "success or fail.” The advantages of examining effect sizes over simple directional hypotheses using null hypothesis significance testing are beyond the scope of this short post, but you might check out [Sullivan and Feinn (2012)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3444174/) as an open-access starting point. Generally speaking, the problem is that sampling variation means that some experiments will find null results even when the experimenter does everything right. As an illustration, below is 1000 simulated correlations, assuming that r = .30 in the population, and a sample size of 100 (I used a [monte carlo method](http://www.quantpsy.org/rci/rci.htm)).
 
-<img src="/images/response1.png" alt="" align="center" style="padding-right: 20px;" /> 
+<img src="images/response1.png" alt="" align="center" style="padding-right: 20px;" /> 
 
 In this picture, the units of analysis are individual correlations obtained in 1 of 1000 hypothetical research studies. The x-axis is the value of the correlation coefficient found, and the y-axis is the number of studies reporting that value. The red line is the critical value for significant results at p < .05 assuming a sample size of 100. As you can see from this picture, the majority of studies are supportive of an effect that is greater than zero. However (simply due to chance) all the studies to the left of the red line turned out non-significant. If we suppressed all the null results (i.e., all those unlucky scientists to the left of the red line) as Dr. Mitchell suggests, then our estimate of the effect size in the population would be inaccurate; specifically, it would appear to be larger than it really is, because certain aspects of random variation (i.e., null results) are being selectively suppressed. Without the minority of null findings (in addition to the majority of positive findings) the overall estimate of the effect cannot be correctly estimated. 
 
 The situation is even more grim if there really is no effect in the population. 
 
-<img src="/images/response2.png" alt="" align="center" style="padding-right: 20px;" /> 
+<img src="images/response2.png" alt="" align="center" style="padding-right: 20px;" /> 
 
 In this case, a small proportion of studies will produce false positives, with a roughly equal chance of an effect in either direction. If we fail to report null results, false positives may be reified as substantive effects. The reversal of signs across repeated studies might be a warning sign that the effect doesn’t really exist, but without replication, a single false positive could define a field if it happens (by chance) to be in line with prior theory.
 

@@ -1,2 +1,5 @@
 pelican
 markdown
+ghp-import
+beautifulsoup4
+

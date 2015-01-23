@@ -32,7 +32,7 @@ I think this confrontation needs to be more closely examined because we need to 
 <!-- PELICAN_END_SUMMARY -->
 __The Deathly Hallows of Psychological Science__
 
-<img src="/images/deathly-hallows.jpg" alt="deathly hallows" align="left" style="padding-right: 20px;" />
+<img src="images/deathly-hallows.jpg" alt="deathly hallows" align="left" style="padding-right: 20px;" />
 
 In the last book of the Harry Potter series “The Deathly Hallows,” Harry Potter faces a dilemma.  Should he pursue the destruction of the Horcruxes or gather together the Deathly Hallows. The Horcruxes are pieces of Voldemort’s soul encapsulated in small trinkets, jewelry, and such.  If they were destroyed, then it would be possible to destroy Voldemort.  The Deathly Hallows are three powerful magical objects, which are alluring because by possessing all three, one becomes the “master of death.”  The Deathly Hallows are the Cloak of Invisibility, the Elder Wand, and the Resurrection Stone. The dilemma Harry faced was whether to pursue and destroy the Horcruxes, which was a painful and difficult path; or Harry could choose to pursue the Deathly Hallows, with which he could quite possibly conquer Voldemort, and, if not conquer him, live on despite him.  He chose to destroy the Horcruxes.
 
@@ -44,7 +44,7 @@ Why am I highlighting this dilemma at this time? I believe we are at a critical 
 
 __The Deathly Hallows of Psychological Science: p-values, experiments, and counter-intuitive/surprising findings__
 
-<img src="/images/smiley.png" alt="smiley" align="left" style="padding-right: 20px;" />
+<img src="images/smiley.png" alt="smiley" align="left" style="padding-right: 20px;" />
 
 _The cloak of invisibility: p<.05._ 
 
