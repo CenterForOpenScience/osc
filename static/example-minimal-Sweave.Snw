@@ -1,0 +1,74 @@
+% !Rnw weave = Sweave
+\documentclass[a4paper]{article}
+
+\usepackage{Sweave}
+
+\title{Minimal Sweave example}
+\author{Ingmar Visser}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\bibliographystyle{plain}
+
+\maketitle
+
+Here, first the data is loaded into R:
+<<>>=
+data(sleep)
+@
+
+These data are from the paper by Student \cite{Student1908}, used in introducing the t-test. The data concern the effects of two kinds of drug on the extra hours of sleep in participants. To view the data use the following: 
+<<>>=
+sleep
+@
+
+The data has the number of extra hours of sleep resulting from the drug compared to control ('extra'), the type of drug ('group') and a participant ID. 
+
+In this case an existing data set is used; reading data from external files can be done using the functions read.table or scan. 
+
+In normal circumstances, one would not show the full data as above, a nice graphical display of the data is more appropriate so now let's plot these data using a (box-)plot with each of the drug effects separately: 
+\begin{center}
+<<plot-sleep, fig=TRUE,echo=TRUE>>=
+plot(extra~group,data=sleep)
+@
+\end{center}
+
+As these data were used by Student, it is appropriate to perform a t-test on them to compare whether one drug has a stronger effect than the other:
+<<>>=
+t.test(extra~group,data=sleep,paired=TRUE)
+@
+In particular, a paired t-test is used as the comparison is within-invididuals. 
+
+In a paper one would not typically output these results as R outputs them but rather one would mention them wihtin a sentence such as the following. A t-test confirms that the drugs have significantly different effects, t(9)=-4.06, $p<0.01$. In the previous sentence I have copied the appropriate values from the R output, with the accompanying danger of typo's and other mistakes. Hence, we need inline R-code to show these numbers. To do so I need to extract the appropriate numbers: 
+<<>>=
+mt <- t.test(extra~group,data=sleep,paired=TRUE)
+df <- mt$parameter
+val <- mt$statistic
+pval <- mt$p.value
+@
+
+These variables (df, val, and pval) can now be used to write the appropriate sentence: a paired t-test indicates that drugs 1 and 2 have significantly different effects on the extra hours of sleep, t(\Sexpr{df})=\Sexpr{format(val,digits=3)}, $p=$\Sexpr{format(pval,digits=1)}. 
+
+The \LaTeX{} source to produce above sentence uses this code: 
+
+\verb+... hours of sleep, t(\Sexpr {df})=\Sexpr {format(val,digits=3)},+
+\verb+p=\Sexpr {format(pval,digits=1)}+.
+
+This may look somewhat complicated but has many advantages, preventing errors in typing being the main one. Also, it may serve as a natural limitation on how many times one wants to do this and hence result in reporting fewer test statistics overall, which may be a good thing (-;
+
+More to the point, using combination of R and \LaTeX{} like in this example constitutes reproducibility and portability of scientific reports. In psychometrics, and applied statistics, producing manuscripts in this manner is clearly advantageous as simulation code can be made a part of manuscripts in a similar as including experimental data. 
+
+As this document also serves the purpose of showing the possibilities of \LaTeX{}, an equation needs to be included as well, here goes: 
+\begin{equation}
+e^{i\pi}+1=0.
+\label{eq:euler}
+\end{equation}
+
+Equation~\ref{eq:euler} is also known as Euler's identity. 
+
+Naturally, credit is due where credit is due: the R project makes all of this possible and hence deserves a citation \cite{R2014}, as well as Sweave \cite{Leisch2002}. \TeX{} is due to Donald Knuth, see \cite{Knuth1986}, and \LaTeX{} is due to Leslie Lamport \cite{Lamport1986}. 
+
+\bibliography{refs}
+
+\end{document}
